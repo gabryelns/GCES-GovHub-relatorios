@@ -1,9 +1,6 @@
 - [Home](/)
-- Sprints
-  - [Visão Geral](sprints/)
-  - [Sprint 1](sprints/sprint0.md)
-  - [Sprint 2](sprints/sprint2.md)
-  - [Sprint 3](sprints/sprint3.md)
-- [Contribuições](contribuicoes/)
+- [Sprints](sprints/README.md)
+  - [Sprint 0](sprints/sprint0.md)
+- [Contribuições](contribuicoes_individuais/)
 - [Materiais](materiais/)
 - [GovHub ↗](https://github.com/GovHub-br/gov-hub)

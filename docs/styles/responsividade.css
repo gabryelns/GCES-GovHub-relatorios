@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .sidebar { width: 240px; }
+  .content { padding: 1rem 1.5rem; }
+  .cover-main h1 { font-size: 2rem; }
+  table { font-size: 0.9rem; }
+}

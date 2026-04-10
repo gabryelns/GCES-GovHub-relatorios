@@ -1,16 +1,28 @@
-- **🏠 Início**
-  - [Home](/)
+- [**Home**](/)
 
-- **🗂️ Sprints**
-  - [Visão Geral](sprints/)
+- [**Sprints**](sprints/README.md)
   - [Sprint 0](sprints/sprint0.md)
 
-- **👤 Contribuições Individuais**
-  - [Visão Geral](contribuicoes_individuais/)
-  - [Luísa](contribuicoes_individuais/Luísa de Souza Ferreira - 232014807.md)
+- [**Contribuições Individuais**](contribuicoes_individuais/README.md)
+  - [Ana Letícia - 211031584](contribuicoes_individuais/ana_leticia.md)
+  - [Anna Clara - 222006534](contribuicoes_individuais/anna_clara.md)
+  - [Artur de Camargos - 221038785](contribuicoes_individuais/artur_camargos.md)
+  - [Gabriel Saraiva - 202045769](contribuicoes_individuais/gabriel_saraiva.md)
+  - [João Lucas - 222025324](contribuicoes_individuais/joao_lucas.md)
+  - [João Vitor - 221022014](contribuicoes_individuais/joao_vitor.md)
+  - [Júlia Takaki - 221029249](contribuicoes_individuais/julia_takaki.md)
+  - [Letícia de Cássia - 221039209](contribuicoes_individuais/leticia_cassia.md)
+  - [Lívia Rodrigues - 180105051](contribuicoes_individuais/livia_rodrigues.md)
+  - [Lucas Guimarães - 222015159](contribuicoes_individuais/lucas_guimaraes.md)
+  - [Lucas de Oliveira  - 211062787](contribuicoes_individuais/lucas_marques.md)
+  - [Luisa de Souza- 232014807](contribuicoes_individuais/luisa.md)
+  - [Maria Clara - 221008329](contribuicoes_individuais/maria_clara.md)
+  - [Maria Eduarda  - 232014502](contribuicoes_individuais/maria_eduarda.md)
+  - [Matheus de Siqueira - 222037737](contribuicoes_individuais/matheus_brant.md)
+  - [Milena Fernandes - 222022000](contribuicoes_individuais/milena_fernandes.md)
+  - [Rafael Melo - 222006383](contribuicoes_individuais/rafael_melo.md)
 
-- **📚 Materiais**
-  - [Visão Geral](materiais/)
+- [**Materiais**](materiais/README.md)
   - [Referências](materiais/referencias.md)
   - [Template Diário de Bordo](materiais/Template_diario_de_bordo.md)
   - [Template Relatório](materiais/Template_relatorio.md)

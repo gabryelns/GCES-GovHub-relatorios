@@ -1,13 +1,42 @@
-# Contribuições Individuais 👤
+# **Contribuições Individuais**
 
-Registro das contribuições realizadas ao repositório do Gov Hub BR.
-
-## Contribuidora
-
-| Nome | GitHub | 
-|------|--------|
-| Luísa | [@luisa12ll](https://github.com/luisa12ll) |
+Este espaço é dedicado ao registro da jornada individual de cada integrante da equipe no projeto **Gov Hub BR**. Aqui você encontrará os links para os Diários de Bordo, onde detalhamos nossas evoluções, desafios e aprendizados técnicos ao longo da disciplina de **GCES**.
 
 ---
 
-- [Ver contribuições da Luísa](luisa.md)
+**<h2>Equipe de Desenvolvimento</h2>**
+
+
+Abaixo estão listados os 17 contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
+
+| Integrante | Matrícula | Diário de Bordo |
+| :--- | :--- | :--- |
+| **[Ana Letícia Melo Pereira]()** | 211031584 | [Ver Relatório](/contribuicoes_individuais/ana_leticia.md) |
+| **[Anna Clara Cardoso Evangelista Brandão](https://github.com/annacbrandao)** | 222006534 |[Ver Relatório](/contribuicoes_individuais/anna_clara.md) |
+| **[Artur de Camargos Rodrigues](https://github.com/Arturdcr)** | 221038785 | [Ver Relatório](/contribuicoes_individuais/artur_camargos.md) |
+| **[Gabriel Saraiva Canabrava](https://github.com/gabrielsarcan)** | 202045769 | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva.md) |
+| **[João Lucas Araujo Siqueira]()** | 222025324 | [Ver Relatório](/contribuicoes_individuais/joao_lucas.md) |
+| **[João Vitor Lopes Ribeiro](https://github.com/Joa0V)** | 221022014 | [Ver Relatório](/contribuicoes_individuais/joao_vitor.md) |
+| **[Júlia Takaki Neves](https://github.com/juliatakaki)** | 221029249 | [Ver Relatório](/contribuicoes_individuais/julia_takaki.md) |
+| **[Letícia de Cássia Hladczuk Rodrigues](https://github.com/HladczukLe)** | 221039209 | [Ver Relatório](/contribuicoes_individuais/leticia_cassia.md) |
+| **[Lívia Rodrigues Reis](https://github.com/Liviarodrigues1)** | 180105051 | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues.md) |
+| **[Lucas de Oliveira Dias Marques Ferreira](https://github.com/LucasOliveiraDiasMarquesFerreira)** | 211062787 | [Ver Relatório](/contribuicoes_individuais/lucas_marques.md) |
+| **[Lucas Guimarães Borges](https://github.com/Lcsgborges)** | 222015159 | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes.md) |
+| **[Luisa de Souza Ferreira](https://github.com/luisa12ll)** | 232014807 | [Ver Relatório](/contribuicoes_individuais/luisa.md) |
+| **[Maria Clara Alves de Sousa](https://github.com/alvezclari)** | 221008329 | [Ver Relatório](/contribuicoes_individuais/maria_clara.md) |
+| **[Maria Eduarda Denis Duarte Marques](https://github.com/mariadenis)** | 232014502 | [Ver Relatório](/contribuicoes_individuais/maria_eduarda.md) |
+| **[Matheus de Siqueira Brant](https://github.com/MatheussBrant)** | 222037737 | [Ver Relatório](/contribuicoes_individuais/matheus_brant.md) |
+| **[Milena Fernandes Rocha](https://github.com/MilenaFRocha)** | 222022000 | [Ver Relatório](/contribuicoes_individuais/milena_fernandes.md) |
+| **[Rafael Melo Matuda](https://github.com/rmatuda)** | 222006383 | [Ver Relatório](/contribuicoes_individuais/rafael_melo.md) |
+
+---
+
+**<h2>Como atualizar seu registro</h2>**
+
+Para manter a padronização, siga estes passos ao adicionar sua contribuição:
+
+1. Crie um arquivo `.md` com seu nome (ex: `seu_nome.md`) dentro da pasta `contribuicoes_individuais/`.
+2. Utilize o [Template de Diário de Bordo](../materiais/Template_diario_de_bordo.md) como base.
+3. Adicione seu nome e links na tabela acima.
+
+> **Frequência de Atualização:** Recomenda-se que o Diário de Bordo seja atualizado semanalmente, refletindo as atividades realizadas em cada Sprint.

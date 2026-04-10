@@ -1,4 +1,4 @@
-# 📝 Relatório de Contribuição – Sprint 0
+# Relatório de Contribuição – Sprint 0
 
 **Disciplina:** Gestão de Configuração e Evolução de Software
 
@@ -69,10 +69,3 @@
 * [ ] Implementar \[funcionalidade]
 * [ ] Ampliar cobertura de testes
 * [ ] Melhorar documentação do processo de contribuição
-
----
-
-<div style="display: flex; justify-content: space-between;">
-    <a href="README.md">← Voltar para Sprints</a>
-    <a href="sprint1.md">Sprint 1 →</a>
-</div>

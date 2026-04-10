@@ -1,5 +1,5 @@
 
-# 📝 Relatório de Contribuição – Sprint X
+# Relatório de Contribuição – Sprint X
 
 **Disciplina:** Gestão de Configuração e Evolução de Software
 **Equipe:** \[Nome/Identificação da equipe]
@@ -38,7 +38,7 @@
 
 ## 4. Maiores Avanços
 
-✨ **Destaques da Sprint:**
+**Destaques da Sprint:**
 
 * \[Exemplo] Integração bem-sucedida de novo módulo no projeto principal.
 * \[Exemplo] Equipe estabeleceu fluxo de contribuição alinhado às práticas da comunidade.
