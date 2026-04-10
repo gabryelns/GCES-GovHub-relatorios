@@ -1,4 +1,4 @@
-# Diário de Bordo – Lucas Guimarães Borges
+# Diário de Bordo – Lucas de Oliveira Dias
 
 **Disciplina:** Gerência de Configuração e Evolução de Software (GCES)
 
