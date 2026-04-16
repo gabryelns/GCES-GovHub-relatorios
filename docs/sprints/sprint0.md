@@ -2,39 +2,48 @@
 
 **Disciplina:** Gestão de Configuração e Evolução de Software
 
-**Equipe:** [Nome/Identificação da equipe]
+**Equipe:** Gov Hub BR
 
 **Comunidade/Projeto de Software Livre:** Gov Hub BR
 
-**Período da Sprint:** [XX/XX – XX/XX]
+**Período da Sprint:** 06/04/2026 – 20/04/2026
 
 ---
 
 ## 1. Objetivos da Sprint
-
-- [ ] Objetivo 1 planejado
-- [ ] Objetivo 2 planejado
-- [ ] Objetivo 3 planejado
-
+- [x] **Organização da governança e infraestrutura:** Criação do fork oficial do projeto e estruturação do repositório de documentação da equipe no GitHub.
+- [x] **Mapeamento das políticas de contribuição:** Estudo aprofundado do E-book, do Guia de Contribuição e dos padrões de qualidade e comunicação específicos do GovHub.
+- [x] **Configuração do ambiente:** Realização do setup do ambiente de desenvolvimento local.
 
 ---
-
 ## 2. Entregas Coletivas
 
 | Entrega | Status | Link/Referência | Observações |
-| :----: | :----: | :---: | :----: |
-| \[Funcionalidade X] | Concluído | \[link para PR/issue]  | Impacto na comunidade |
-
----
+| :---- | :---- | :---| :---- |
+| **Portal de Relatórios** | Concluído | [GitHub Pages](https://luisa12ll.github.io/GCES-GovHub-relatorios/#/) | Ambiente centralizado para os relatório da equipe. |
 
 ## 3. Contribuições Individuais
 
-|Integrante | Contribuições   | Links (PRs, Issues, Docs)| Status (Concluído/Parcial/Pendente)|
-| :----: | :----: | :---: | :----: |
-| \[Nome do aluno] | Implementou [feature], abriu [X issues] | \[link diario de bordo]  
-| \[Nome do aluno] | Revisou PRs, documentou [tópico]  | \[link diario de bordo] 
-| \[Nome do aluno] | Desenvolveu script de automação  | \[link diario de bordo]|
-
+| Integrante | Contribuições | Links (Diário de Bordo) | Status |
+| :--- | :--- | :---: | :---: |
+| **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia.md) | Pendente |
+| **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara.md) | Pendente |
+| **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos.md) | Pendente |
+| **Camila Silva Cavalcante** | | [Ver Relatório](/contribuicoes_individuais/camila_silva.md) | Pendente |
+| **Gabriel Saraiva Canabrava** | | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva.md) | Pendente |
+| **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas.md) | Pendente |
+| **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor.md) | Pendente |
+| **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki.md) | Pendente |
+| **Letícia de Cássia Hladczuk Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/leticia_cassia.md) | Pendente |
+| **Lívia Rodrigues Reis** | | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues.md) | Pendente |
+| **Lucas de Oliveira Dias Marques Ferreira** | | [Ver Relatório](/contribuicoes_individuais/lucas_marques.md) | Pendente |
+| **Lucas Guimarães Borges** | | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes.md) | Pendente |
+| **Luisa de Souza Ferreira** | Estudo sobre o projeto, criação do fork do projeto, configuração do ambiente local e criação do repositório de documentação. | [Ver Relatório](/contribuicoes_individuais/luisa.md) | Concluído |
+| **Maria Clara Alves de Sousa** | | [Ver Relatório](/contribuicoes_individuais/maria_clara.md) | Pendente |
+| **Maria Eduarda Denis Duarte Marques** | | [Ver Relatório](/contribuicoes_individuais/maria_eduarda.md) | Pendente |
+| **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant.md) | Pendente |
+| **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes.md) | Pendente |
+| **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo.md) | Pendente |
 
 ---
 

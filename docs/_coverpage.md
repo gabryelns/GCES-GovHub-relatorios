@@ -1,10 +1,9 @@
 # GCES · GovHub
 
-**Contribuições open source ao Gov Hub BR**
-Transformando dados públicos em informações estratégicas.
-Desenvolvido pelo **Lab Livre · UnB**
+> Contribuições open source ao **Gov Hub BR** — plataforma de dados públicos
+> desenvolvida pelo Lab Livre · UnB
 
-Disciplina de Gerência de Configuração e Evolução de Software
+Disciplina de **Gerência de Configuração e Evolução de Software**
+Universidade de Brasília · 2025
 
-[Começar](#main)
-[GitHub](https://github.com/luisa12ll/GCES-GovHub-relatorios)
+[Começar](/) [GitHub](https://github.com/luisa12ll/GCES-GovHub-relatorios)

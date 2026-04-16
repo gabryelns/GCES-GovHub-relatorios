@@ -1,4 +1,4 @@
-# Diário de Bordo – Lucas Guimarães Borges
+# Diário de Bordo – Camila Silva Cavalcante
 
 **Disciplina:** Gerência de Configuração e Evolução de Software (GCES)
 

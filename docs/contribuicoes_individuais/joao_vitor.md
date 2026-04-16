@@ -8,7 +8,7 @@
 
 ---
 
-## Sprint 0 – [Data início – Data fim]
+## Sprint 0 – [06/04/2026 – 20/04/2026]
 
 ### Resumo da Sprint
 Breve descrição das atividades e reflexões.

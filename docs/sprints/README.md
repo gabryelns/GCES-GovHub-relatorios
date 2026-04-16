@@ -10,7 +10,7 @@ Acompanhe abaixo o status de cada ciclo de desenvolvimento. Clique no link corre
 
 | Sprint | Período | Foco Principal | Status |
 | :--- | :--- | :--- | :--- |
-| **[Sprint 0](sprint0.md)** | --/-- a --/-- | *[Ex: Setup inicial e ambientação]* | ✅ Concluída/⏳ Pendente |
+| **[Sprint 0](sprint0.md)** | 06/04/2026 – 20/04/2026| Criação do fork, configuração do ambiente e estudo sobre o projeto | ✅ Concluída|
 | **Sprint 1** | --/-- a --/-- | *A definir* | ⏳ Pendente |
 | **Sprint 2** | --/-- a --/-- | *A definir* | ⏳ Pendente |
 
