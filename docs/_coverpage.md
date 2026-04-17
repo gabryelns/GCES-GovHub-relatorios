@@ -6,4 +6,4 @@
 Disciplina de **Gerência de Configuração e Evolução de Software**
 Universidade de Brasília · 2025
 
-[Começar](/) [GitHub](https://github.com/luisa12ll/GCES-GovHub-relatorios)
+[Começar](#/) [GitHub](https://github.com/luisa12ll/GCES-GovHub-relatorios)

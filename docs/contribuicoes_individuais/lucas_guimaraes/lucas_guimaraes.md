@@ -56,27 +56,27 @@ Além disso, houve o primeiro contato prático com o fluxo de contribuição em 
 
 1. Instalação das dependências com `make setup`
 
-<p align="center"><img src="./assets/sprint0/img01.png"></p>
+![Instalação das dependências com `make setup`](./assets/sprint0/img01.png)
 
 2. Subindo o ambiente com `docker compose`
 
-<p align="center"><img src="./assets/sprint0/img02.png"></p>
+![Subindo o ambiente com `docker compose`](./assets/sprint0/img02.png)
 
 3. Configuração das variáveis dentro do airflow
 
-<p align="center"><img src="./assets/sprint0/img03.png"></p>
+![Configuração das variáveis dentro do airflow](./assets/sprint0/img03.png)
 
 4. Conexão do airflow com o banco de dados
 
-<p align="center"><img src="./assets/sprint0/img04.png"></p>
+![Conexão do airflow com o banco de dados](./assets/sprint0/img04.png)
 
 5. Conexão do superset com o banco de dados bem sucedida
 
-<p align="center"><img src="./assets/sprint0/img05.png"></p>
+![Conexão do superset com o banco de dados bem sucedida](./assets/sprint0/img05.png)
 
 6. Configuração do dbt
 
-<p align="center"><img src="./assets/sprint0/img06.png"></p>
+![Configuração do dbt](./assets/sprint0/img06.png)
 
-<p align="center"><img src="./assets/sprint0/img07.png"></p>
+![Configuração do dbt](./assets/sprint0/img07.png)
 

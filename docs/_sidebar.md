@@ -1,4 +1,4 @@
-- [**Home**](/)
+- [**Home**](#/)
 
 - [**Sprints**](sprints/README.md)
   - [Sprint 0](sprints/sprint0.md)
