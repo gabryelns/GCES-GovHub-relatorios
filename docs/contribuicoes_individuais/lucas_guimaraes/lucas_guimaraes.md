@@ -11,26 +11,72 @@
 ## Sprint 0 – [06/04/2026 – 20/04/2026]
 
 ### Resumo da Sprint
-Breve descrição das atividades e reflexões.
+
+Durante a Sprint 0, o foco principal foi a ambientação no projeto Gov Hub BR, compreendendo sua estrutura, propósito e fluxo de funcionamento. As atividades concentraram-se na configuração do ambiente de desenvolvimento, leitura da documentação oficial e estudo dos materiais disponibilizados, como o e-book do projeto.
+
+Além disso, houve o primeiro contato prático com o fluxo de contribuição em um projeto de software livre, incluindo leitura de código, entendimento das dependências (como Airflow, Superset e dbt) e realização de commits no repositório oficial.
 
 ### Atividades Realizadas
+
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
-| 20/08 | Configuração inicial do ambiente | Código | – | Concluído |
-| 22/08 | Leitura e estudo da documentação do projeto | Estudo | [link wiki] | Concluído |
-| 24/08 | Abertura de issue para bug em módulo X | Discussão | [link issue] | Concluído |
+| 17/04 | Configuração inicial do ambiente | Código | [Comprobatórios](#comprobatórios) | Concluído |
+| 17/04 | Leitura e estudo da documentação do projeto | Estudo | [Link](https://gov-hub.io/govhub/documentacao/instalacao/#make-test) | Concluído |
+| 17/04 | Leitura do e-book | Estudo | [Link](https://gov-hub.io/govhub/ebook-viewer/) | Concluído |
+| 17/04 | Contribuição para o arquivo de build do projeto | Código | [Link commit](https://github.com/GovHub-br/data-application-gov-hub/commit/7c110e594a8017a52895f5b86b484d09f9e2b250) | Concluído |
+| 17/04 | Contribuição para a documentação do projeto | Documentação | [Link commit 1](https://github.com/GovHub-br/gov-hub/commit/13fe3153e24e1c3ff6aa46f87ba467442104df41) <br>  [Link commit 2](https://github.com/GovHub-br/gov-hub/commit/e5dd9f6536826da7bbde5abe53307569356f7e04) | Concluído |
 
 ### Maiores Avanços
-* [Exemplo] Aprendi a rodar a aplicação localmente.
-* [Exemplo] Entendi melhor a organização do repositório.
+
+* Consegui configurar e rodar a aplicação do GovHub localmente, validando toda a stack (Airflow, Superset e dbt);
+* Identifiquei gargalos no processo de setup e contribui diretamente com melhorias no build e na documentação do projeto;
+* Realizei minhas primeiras contribuições efetivas no repositório oficial, incluindo código e documentação;
+* Compreendi a arquitetura geral da aplicação e o fluxo de dados entre os componentes do ecossistema;
 
 ### Maiores Dificuldades
-* [Exemplo] Ambiente demorou para configurar por falta de dependências.
+
+* Configuração inicial do ambiente local;
+* Entendimento inicial da integração entre as ferramentas do projeto (Airflow, Superset e dbt);
 
 ### Aprendizados
-* Uso básico de GitHub Issues.
-* Fluxo de contribuição do projeto.
+
+* Processo completo de setup de um ambiente de dados utilizando Airflow, Superset e dbt;
+* Importância de uma documentação clara e bem estruturada em projetos open source;
+* Leitura e entendimento da arquitetura utilizada no GovHub;
 
 ### Plano Pessoal para a Próxima Sprint
-* [ ] Contribuir com pelo menos 1 PR.
-* [ ] Participar da revisão de código de um colega.
+
+* [ ] Aprofundar o entendimento da camada de dados;
+
+* [ ] Explorar issues abertas para identificar oportunidades de contribuição técnica;
+
+* [ ] Submeter pelo menos 1 Pull Request com melhoria relevante no projeto;
+
+### Comprobatórios
+
+1. Instalação das dependências com `make setup`
+
+<p align="center"><img src="./assets/sprint0/img01.png"></p>
+
+2. Subindo o ambiente com `docker compose`
+
+<p align="center"><img src="./assets/sprint0/img02.png"></p>
+
+3. Configuração das variáveis dentro do airflow
+
+<p align="center"><img src="./assets/sprint0/img03.png"></p>
+
+4. Conexão do airflow com o banco de dados
+
+<p align="center"><img src="./assets/sprint0/img04.png"></p>
+
+5. Conexão do superset com o banco de dados bem sucedida
+
+<p align="center"><img src="./assets/sprint0/img05.png"></p>
+
+6. Configuração do dbt
+
+<p align="center"><img src="./assets/sprint0/img06.png"></p>
+
+<p align="center"><img src="./assets/sprint0/img07.png"></p>
+

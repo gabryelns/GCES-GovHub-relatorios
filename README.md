@@ -63,6 +63,22 @@ http://localhost:8000/docs/
 
 3. Para encerrar o servidor, use `Ctrl + C` no terminal.
 
+### Opção com Watch (auto-reload)
+
+Se quiser recarregamento automático da página ao editar os arquivos da documentação, use o Docsify CLI.
+
+Pré-requisito: ter Node.js e npm instalados.
+
+```bash
+npx docsify-cli serve docs --port 8000
+```
+
+Depois, abra:
+
+```text
+http://localhost:8000
+```
+
 ---
 
 ## Fluxo de Trabalho (Gitflow)
