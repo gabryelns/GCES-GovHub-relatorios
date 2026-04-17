@@ -20,8 +20,8 @@ Além disso, houve o primeiro contato prático com o fluxo de contribuição em 
 
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
+| 15/04 - 17/04 | Leitura e estudo da documentação do projeto | Estudo | [Link](https://gov-hub.io/govhub/documentacao/instalacao/#make-test) | Concluído |
 | 17/04 | Configuração inicial do ambiente | Código | [Comprobatórios](#comprobatórios) | Concluído |
-| 17/04 | Leitura e estudo da documentação do projeto | Estudo | [Link](https://gov-hub.io/govhub/documentacao/instalacao/#make-test) | Concluído |
 | 17/04 | Leitura do e-book | Estudo | [Link](https://gov-hub.io/govhub/ebook-viewer/) | Concluído |
 | 17/04 | Contribuição para o arquivo de build do projeto | Código | [Link commit](https://github.com/GovHub-br/data-application-gov-hub/commit/7c110e594a8017a52895f5b86b484d09f9e2b250) | Concluído |
 | 17/04 | Contribuição para a documentação do projeto | Documentação | [Link commit 1](https://github.com/GovHub-br/gov-hub/commit/13fe3153e24e1c3ff6aa46f87ba467442104df41) <br>  [Link commit 2](https://github.com/GovHub-br/gov-hub/commit/e5dd9f6536826da7bbde5abe53307569356f7e04) | Concluído |
