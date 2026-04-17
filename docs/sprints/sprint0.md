@@ -34,7 +34,7 @@
 | **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
 | **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) | Pendente |
 | **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki/julia_takaki.md) | Pendente |
-| **Letícia de Cássia Hladczuk Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md) | Pendente |
+| **Letícia de Cássia Hladczuk Rodrigues** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md) | Concluído |
 | **Lívia Rodrigues Reis** | | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md) | Pendente |
 | **Lucas de Oliveira Dias Marques Ferreira** | | [Ver Relatório](/contribuicoes_individuais/lucas_marques/lucas_marques.md) | Pendente |
 | **Lucas Guimarães Borges** | | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md) | Pendente |
