@@ -39,6 +39,48 @@ A documentação foi estruturada para facilitar a navegação e o rastreio das c
 
 ---
 
+## Como Rodar Localmente
+
+Para visualizar a documentação no navegador de forma simples, use o servidor HTTP embutido do Python.
+
+1. No diretório raiz do repositório, execute:
+
+```bash
+python3 -m http.server 8000
+```
+
+Se o comando acima não funcionar no seu ambiente, tente:
+
+```bash
+python -m http.server 8000
+```
+
+2. Abra no navegador:
+
+```text
+http://localhost:8000/docs/
+```
+
+3. Para encerrar o servidor, use `Ctrl + C` no terminal.
+
+### Opção com Watch (auto-reload)
+
+Se quiser recarregamento automático da página ao editar os arquivos da documentação, use o Docsify CLI.
+
+Pré-requisito: ter Node.js e npm instalados.
+
+```bash
+npx docsify-cli serve docs --port 8000
+```
+
+Depois, abra:
+
+```text
+http://localhost:8000
+```
+
+---
+
 ## Fluxo de Trabalho (Gitflow)
 
 Para manter a integridade da branch `main`, adotamos as seguintes práticas:
