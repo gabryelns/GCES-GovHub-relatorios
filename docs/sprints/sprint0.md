@@ -26,24 +26,24 @@
 
 | Integrante | Contribuições | Links (Diário de Bordo) | Status |
 | :--- | :--- | :---: | :---: |
-| **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia.md) | Pendente |
-| **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara.md) | Pendente |
-| **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos.md) | Pendente |
-| **Camila Silva Cavalcante** | | [Ver Relatório](/contribuicoes_individuais/camila_silva.md) | Pendente |
-| **Gabriel Saraiva Canabrava** | | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva.md) | Pendente |
-| **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas.md) | Pendente |
-| **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor.md) | Pendente |
-| **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki.md) | Pendente |
-| **Letícia de Cássia Hladczuk Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/leticia_cassia.md) | Pendente |
-| **Lívia Rodrigues Reis** | | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues.md) | Pendente |
-| **Lucas de Oliveira Dias Marques Ferreira** | | [Ver Relatório](/contribuicoes_individuais/lucas_marques.md) | Pendente |
-| **Lucas Guimarães Borges** | | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes.md) | Pendente |
-| **Luisa de Souza Ferreira** | Estudo sobre o projeto, criação do fork do projeto, configuração do ambiente local e criação do repositório de documentação. | [Ver Relatório](/contribuicoes_individuais/luisa.md) | Concluído |
-| **Maria Clara Alves de Sousa** | | [Ver Relatório](/contribuicoes_individuais/maria_clara.md) | Pendente |
-| **Maria Eduarda Denis Duarte Marques** | | [Ver Relatório](/contribuicoes_individuais/maria_eduarda.md) | Pendente |
-| **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant.md) | Pendente |
-| **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes.md) | Pendente |
-| **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo.md) | Pendente |
+| **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Pendente |
+| **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara/anna_clara.md) | Pendente |
+| **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) | Pendente |
+| **Camila Silva Cavalcante** | | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) | Pendente |
+| **Gabriel Saraiva Canabrava** | | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md) | Pendente |
+| **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
+| **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) | Pendente |
+| **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki/julia_takaki.md) | Pendente |
+| **Letícia de Cássia Hladczuk Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md) | Pendente |
+| **Lívia Rodrigues Reis** | | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md) | Pendente |
+| **Lucas de Oliveira Dias Marques Ferreira** | | [Ver Relatório](/contribuicoes_individuais/lucas_marques/lucas_marques.md) | Pendente |
+| **Lucas Guimarães Borges** | | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md) | Pendente |
+| **Luisa de Souza Ferreira** | Estudo sobre o projeto, criação do fork do projeto, configuração do ambiente local e criação do repositório de documentação. | [Ver Relatório](/contribuicoes_individuais/luisa_ferreira/luisa.md) | Concluído |
+| **Maria Clara Alves de Sousa** | | [Ver Relatório](/contribuicoes_individuais/maria_clara/maria_clara.md) | Pendente |
+| **Maria Eduarda Denis Duarte Marques** | | [Ver Relatório](/contribuicoes_individuais/maria_eduarda/maria_eduarda.md) | Pendente |
+| **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant/matheus_brant.md) | Pendente |
+| **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md) | Pendente |
+| **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo/rafael_melo.md) | Pendente |
 
 ---
 
