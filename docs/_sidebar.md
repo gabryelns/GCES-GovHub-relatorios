@@ -1,10 +1,9 @@
-- **GCES · GovHub**
-- [Home](/)
+- [**Home**](/)
 
 - [**Sprints**](/sprints/README.md)
   - [Sprint 0](/sprints/sprint0.md)
 
-- [Contribuições](/contribuicoes_individuais/README.md)
+- [**Contribuições**](/contribuicoes_individuais/README.md)
   - [Ana Letícia](/contribuicoes_individuais/ana_leticia/ana_leticia.md)
   - [Anna Clara](/contribuicoes_individuais/anna_clara/anna_clara.md)
   - [Artur Camargos](/contribuicoes_individuais/artur_camargos/artur_camargos.md)
@@ -24,7 +23,7 @@
   - [Milena Fernandes](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md)
   - [Rafael Melo](/contribuicoes_individuais/rafael_melo/rafael_melo.md)
 
-- [Materiais](/materiais/README.md)
+- [**Materiais**](/materiais/README.md)
   - [Referências](/materiais/referencias.md)
   - [Template: Diário](/materiais/Template_diario_de_bordo.md)
   - [Template: Relatório](/materiais/Template_relatorio.md)

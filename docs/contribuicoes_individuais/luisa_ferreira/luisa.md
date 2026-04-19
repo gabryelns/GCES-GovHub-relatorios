@@ -23,6 +23,85 @@ Essa sprint foi focada na organização da equipe e na estruturação da governa
 | 14/04 | Leitura do E-book e imersão na arquitetura do sistema | Estudo | [E-book GovHub](https://gov-hub.io/govhub/ebook-viewer/) | Concluído |
 | 15/04 | Configuração do ambiente local | Código | [Guia de Instalação](https://gov-hub.io/govhub/documentacao/instalacao/) | Concluído |
 | 15/04 |Criação do repositório e implementação do Pages dos relatórios| Documentação | [GitHub Pages](https://luisa12ll.github.io/GCES-GovHub-relatorios/#/) | Concluído |
+| 18/04 |Atualizando a estrutura do Pages para uma melhor organizacão| Documentação | [GitHub Pages](https://luisa12ll.github.io/GCES-GovHub-relatorios/#/) | Concluído |
+| 19/04 |Organizando o meu Diário de Bordo | Documentação | - | Concluído |
+
+
+### Detalhamento das Atividades Realizadas
+
+Para consolidar a configuração do ambiente e validar as minhas atividades no projeto GovHub, realizei testes e validações locais. Abaixo estão detalhadas as etapas principais, desde a execução da plataforma até a verificação da persistência dos dados:
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Rodando Interface da Plataforma GovHub</span></summary>
+
+Página inicial do Gov Hub BR em execução local (localhost:8000), demonstrando os domínios disponíveis
+
+![Site do GovHub](assets/imagem1.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. Superset — Banco de Dados Conectado</span></summary>
+
+Tela do Apache Superset mostrando a conexão "PostgreSQL Local" configurada com sucesso, habilitando a visualização dos dados processados pelo pipeline. 
+
+![Superset Database](assets/imagem2.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Containers Docker em Execução</span></summary>
+
+Resultado do comando `docker compose ps` mostrando os 4 serviços do pipeline (Airflow, Jupyter, PostgreSQL e Superset) com status **healthy** confirmando que o ambiente está funcionando corretamente.
+
+![Docker Compose PS](assets/imagem3.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">4. Executar Ingestão de Dados - DAG de Contratos Executada</span></summary>
+
+Painel do Apache Airflow mostrando a DAG `api_contratos_dag` ativa e com 2 execuções bem-sucedidas, confirmando que a ingestão dos dados de contratos foi realizada com sucesso.
+
+![DAG Contratos](assets/imagem4.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">5. Mapear Fontes Disponíveis no Airflow</span></summary>
+
+Painel do Airflow exibindo as 70 DAGs disponíveis no projeto, cada uma responsável por ingerir dados de um sistema governamental diferente (SIAFI, SIAPE, SIORG, Compras.gov, etc).
+
+![Airflow DAGs](assets/imagem5.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">6. DBT — Conexão com o Banco Validada </span></summary>
+
+Resultado do comando `dbt debug` mostrando todas as verficações aprovadas: profiles.yml válido, dbt_project.yml válido e **Connection test: OK**, confirmando que o dbt está conectado ao banco PostgreSQL local.
+![DBT Debug](assets/imagem6.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;"> 7. Conferir Carga de Dados no PostgreSQL</span></summary>
+
+Resultado da query `SELECT COUNT(*) FROM contratos.contratos` mostrando **310 registros** carregados na tabela, comprovando que o pipeline completo funcionou: da ingestão via Airflow até a transformação via dbt.
+
+![SELECT COUNT](assets/imagem7.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">8. Consultar Dados via SQL Lab no Superset</span></summary>
+
+SQL Lab do Superset executando `SELECT * FROM contratos.contratos LIMIT 10`, exibindo os contratos do IPEA/DF com campos como número, contratante, órgão de origem, dados prontos para criação de dashboards.
+
+![Superset SQL Lab](assets/imagem8.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+
+</details>
 
 
 ### Maiores Avanços

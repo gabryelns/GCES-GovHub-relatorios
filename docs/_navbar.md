@@ -3,4 +3,3 @@
   - [Sprint 0](/sprints/sprint0.md)
 - [Contribuições](/contribuicoes_individuais/README.md)
 - [Materiais](/materiais/README.md)
-- [GovHub ↗](https://github.com/GovHub-br/gov-hub)
