@@ -45,7 +45,7 @@ Página inicial do Gov Hub BR em execução local (localhost:8000), demonstrando
 
 Tela do Apache Superset mostrando a conexão "PostgreSQL Local" configurada com sucesso, habilitando a visualização dos dados processados pelo pipeline. 
 
-![Superset Database](assets/imagem2.png)
+![Superset Database](assets/Imagem2.png)
 <p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
 </details>
 
