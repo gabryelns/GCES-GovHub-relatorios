@@ -23,26 +23,26 @@ Essa sprint foi focada na familiarização com o projeto, o aprendizado do fluxo
 ### Maiores Avanços
 * Consegui rodar a aplicação localmente. Containers Dockers rodando:
 
-![Containers Docker](./assets/containersDocker.png)
+![Containers Docker](./assets/sprint0/containersDocker.png)
 
 * Entendi melhor a organização do repositório.
 
 * Configuração do Airflow e Superset.
+![Superset](./assets/sprint0/superset.png)
+![Superset](./assets/sprint0/airflow.png)
 
 
 ### Maiores Dificuldades
 * Logo no início, tive problema com a versão do Python, precisando fazer o ajuste para a versão 3.11. 
-![Erro Versão do Python](./assets/erro_pyVersion.png)
+![Erro Versão do Python](./assets/sprint0/erro_pyVersion.png)
 
-* Lidei com falha na compilação da biblioteca `openlineage-sql`, o que exigiu a instalação do `Visual Studio Build Tools` para compilar o código Rust/C++. 
-![Erro Biblioteca Openlineage](./assets/erro_openlineage.png)
+* Tive dificuldades de configurar o WSL, pois foi a minha primeira vez usando.
 
-* Enfrentei erros de leitura de arquivos (`\r` invisível / formato CRLF) ao executar scripts `.sh` do projeto e ao configurar o Git Hooks no WSL.
+* Erros de sintaxe nas variáveis de ambiente do Airflow.
 
 ### Aprendizados
 * Entendimento na prática do fluxo de contribuição e arquitetura do projeto.
-* Aprendi como a diferença de codificação de texto (CRLF vs LF) afeta a execução de scripts Bash em contêineres e como limpar esses arquivos via terminal.
-* Melhoria na leitura de logs do Docker para diagnosticar falhas de dependência entre serviços.
+* Melhoria na leitura de logs para diagnosticar falhas de dependência entre serviços.
 
 
 ### Plano Pessoal para a Próxima Sprint
