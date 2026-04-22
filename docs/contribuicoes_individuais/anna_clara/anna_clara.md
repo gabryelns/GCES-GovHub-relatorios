@@ -20,7 +20,7 @@ Essa sprint inicial teve como foco a familiarização com o projeto Gov Hub e a 
 | 16/04 | Leitura do e-book | Estudo | [E-book][link-Ebook] | Concluído |
 | 20/04 | Leitura e estudo da documentação do projeto | Estudo | [Documentação][link-Documentação] | Concluído |
 | 20/04 | Configuração do ambiente | Código | [Configuração][link-Config] | Incompleto |
-| 22/04 | Adicionando meu diário de bordo ao GitPages | Documentação | - | Concluído |
+| 22/04 | Adicionando meu diário de bordo ao GitHub Pages | Documentação | - | Concluído |
 
 ### Detalhamento das Atividades Realizadas
 
