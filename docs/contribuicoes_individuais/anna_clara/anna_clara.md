@@ -8,7 +8,7 @@
 
 ---
 
-## Sprint 0 – [06/04/2026 – 20/04/2026]
+## Sprint 0 – [06/04/2026 – 22/04/2026]
 
 ### Resumo da Sprint
 Essa sprint inicial teve como foco a familiarização com o projeto Gov Hub e a configuração do ambiente do mesmo, ainda, de maneira mais coletiva o aprendizado do fluxo de contribuições para o GitPages.
