@@ -16,7 +16,7 @@ Esta sprint foi dedicada ao reconhecimento da arquitetura do projeto GovHub BR, 
 | Data  | Atividade | Tipo | Link/Referência | Status |
 | ----- | --------- | ---- | --------------- | ------ |
 | 16/04 | Estudo da arquitetura Medallion e leitura do E-book | Estudo | [E-book GovHub](https://github.com/govhub-br/ebook) | Concluído |
-| 10/04 | Troubleshooting de instalação do Docker no Windows | Infra | PowerShell Admin | Concluído |
+| 20/04 | Troubleshooting de instalação do Docker no Windows | Infra | PowerShell Admin | Concluído |
 | 20/04 | Setup manual de dependências e variáveis (.env) | Código | Docker Compose | Concluído |
 | 20/04 | Mapeamento de Issues e Labels no repositório oficial | Discussão | GitHub Issues | Concluído |
 
