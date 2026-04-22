@@ -62,16 +62,6 @@ Foi realizada a exploração dos pipelines existentes e da organização do repo
 * [ ] Implementar testes básicos para garantir a confiabilidade dos pipelines.
 * [ ] Aprofundar o entendimento sobre a arquitetura de dados do projeto (armazenamento e consumo).
 
----
 
-## 🔧 Sugestão técnica (se quiser subir mais ainda o nível)
-
-Se seu professor for exigente, você pode inserir termos como:
-
-* “orquestração de workflows com DAGs”
-* “pipelines de dados escaláveis”
-* “integração entre serviços desacoplados”
-* “processos ETL”
-* “validação e confiabilidade de dados”
 
 
