@@ -28,7 +28,7 @@ Abaixo estão listados os 17 contribuidores deste projeto. Clique no nome ou no 
 | **[Matheus de Siqueira Brant](https://github.com/MatheussBrant)** | 222037737 | [Ver Relatório](/contribuicoes_individuais/matheus_brant/matheus_brant.md) |
 | **[Milena Fernandes Rocha](https://github.com/MilenaFRocha)** | 222022000 | [Ver Relatório](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md) |
 | **[Rafael Melo Matuda](https://github.com/rmatuda)** | 222006383 | [Ver Relatório](/contribuicoes_individuais/rafael_melo/rafael_melo.md) |
-
+| **[João Guilherme Fonseca](https://github.com/joaoguilherme14)** | 232014039 | [Ver Relatório](/contribuicoes_individuais/rafael_melo/joao_fonseca.md) |
 ---
 
 **<h2>Como atualizar seu registro</h2>**

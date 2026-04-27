@@ -44,6 +44,7 @@
 | **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant/matheus_brant.md) | Pendente |
 | **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md) | Pendente |
 | **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo/rafael_melo.md) | Pendente |
+| **João Guilherme Fonseca** | | [Ver Relatório](/contribuicoes_individuais/joao_fonseca/joao_fonseca.md) | Pendente |
 
 ---
 
