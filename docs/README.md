@@ -64,7 +64,7 @@ Utilize o menu lateral para explorar as seções do nosso trabalho:
 
   <div style="width: 150px;">
     <a href="#/contribuicoes_individuais/joao_lucas/joao_lucas.md" style="text-decoration: none; color: inherit;">
-      <img src="https://github.com/ghost.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="https://github.com/jlucasiqueira.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">João Lucas<br><span style="font-weight: normal; opacity: 0.7;">222025324</span></p>
     </a>
   </div>
