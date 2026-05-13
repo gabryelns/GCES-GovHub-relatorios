@@ -123,8 +123,93 @@ SQL Lab do Superset executando `SELECT * FROM contratos.contratos LIMIT 10`, exi
 * Resolução de conflitos de dependências durante a configuração do ambiente local.
 
 ### Plano Pessoal para a Próxima Sprint
-* [ ] Realizar a análise de novas issues no repositório oficial para definir as próximas frentes de contribuição.
-* [ ] Atuar em conjunto com a **Camila Silva** para o diagnóstico e resolução de problemas técnicos identificados na nossa issue.
-* [ ] Realizar a análise exploratória de dados governamentais para subsidiar as melhorias no sistema.
-* [ ] Submeter o primeiro Pull Request focado em melhorias na análise de dados.
-* [ ] Garantir que o repositório de documentação siga atualizado conforme o avanço das sprints.
+* [X] Realizar a análise de novas issues no repositório oficial para definir as próximas frentes de contribuição.
+* [x] Atuar em conjunto com a **Camila Silva** para o diagnóstico e resolução de problemas técnicos identificados na nossa issue.
+* [X] Realizar a análise exploratória de dados governamentais para subsidiar as melhorias no sistema.
+* [X] Submeter o primeiro Pull Request focado em melhorias na análise de dados.
+* [x] Garantir que o repositório de documentação siga atualizado conforme o avanço das sprints.
+
+---
+
+## Sprint 1 – [21/04/2026 – 11/05/2026]
+
+### Resumo da Sprint
+
+Esta sprint foi dedicada ao desenvolvimento do pipeline de extração automatizada dos dados de Unidades de Conservação do Censo 2022 do IBGE. Realizei juntamente com a **Camila Silva** a implementação da DAG de extração via FTP, transformação dos dados em modelo relacional amplo, armazenamento no schema `censo_demografico` e implementação de metadados. Toda entrega foi concluído com sucesso.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo | Link/Referência | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| 25/04 | Estudo e análise da issue - Extração - Unidades de Conservação #121  | Estudo | [Issue #121](https://github.com/GovHub-br/data-application-gov-hub/issues/121) | Concluído |
+| 01/05 | Mapeamento das fontes FTP | Estudo | [FTP IBGE](https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Unidades_de_Conservacao/) | Concluído |
+| 03/05 | Desenvolvimento da DAG de extração | Código | Airflow | Concluído |
+| 06/05 | Extração e transformação dos dados | Código | `extrair_dados_excel` | Concluído |
+| 06/05 | Armazenamento no PostgreSQL | Código | Schema `censo_demografico` | Concluído |
+| 07/05 | Implementação de metadados | Código | `COMMENT ON TABLE/COLUMN` | Concluído |
+| 08/05 | Validação das tabelas criadas | Validação | 19 tabelas `UN_CONS_*` | Concluído |
+| 08/05 | Testes no Superset | Teste | SQL Lab | Concluído |
+| 10/05 | Organizando o meu Diário de Bordo | Documentação | - | Concluído |
+
+
+### Detalhamento das Atividades Realizadas
+
+Para validar o pipeline de extração, realizamos testes em cada etapa:
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Execução da DAG de Extração</span></summary>
+
+Print do Airflow mostrando a DAG `ingestao_ibge_unidades_conservacao_dag` em execução com as 3 tasks (listar_arquivos_ftp, extrair_dados_excel, limpar_e_inserir_dados) todas com sucesso.
+
+![DAG Execution](assets/airflow_dag_execution.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. Validação das Tabelas Criadas</span></summary>
+
+Query SQL mostrando a listagem das 19 tabelas criadas no schema `censo_demografico` com o padrão de nomenclatura `UN_CONS_*` corretamente aplicado.
+
+![Tables Validation](assets/tables_validation.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Verificação dos Dados Armazenados</span></summary>
+
+Consulta aos dados da tabela `un_cons_tabela_selecionada_01` no Superset, demonstrando os dados demográficos de Unidades de Conservação com dimensões achatadas corretamente.
+
+![Data Verification](assets/data_verification.png)
+<p align="center"><i><b>Fonte:</b> Luísa de Souza Ferreira</i></p>
+</details>
+
+### Maiores Avanços
+
+* Implementação bem-sucedida da extração automatizada via FTP;
+* Desenvolvimento do pipeline completo (listagem → extração → armazenamento);
+* Achatamento correto de dimensões em modelo relacional;
+* Implementação de metadados no banco de dados;
+* Validação de todos os critérios de aceitação da issue;
+* Colaboração efetiva com Camila Silva.
+
+### Maiores Dificuldades
+
+* Tratamento de diferentes formatos de arquivo (Excel e CSV);
+* Mapeamento correto das dimensões para achatamento relacional;
+* Nomenclatura consistente em todas as 19 tabelas.
+
+### Aprendizados
+
+* Desenvolvimento de DAGs complexas no Airflow com múltiplas etapas;
+* Tratamento de dados heterogêneos do IBGE;
+* Implementação de metadados estruturados em PostgreSQL;
+* Técnicas de achatamento (flattening) para modelagem relacional;
+* Importância da validação em cada etapa do pipeline.
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Revisar feedback do Pull Request.
+* [ ] Implementar sugestões de melhoria.
+* [ ] Documentar o pipeline no repositório.
+* [ ] Colaborar com Camila na finalização do PR.
+* [ ] Escolher a próxima issue com Camila.
