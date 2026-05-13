@@ -7,13 +7,14 @@ Este espaço é dedicado ao registro da jornada individual de cada integrante da
 **<h2>Equipe de Desenvolvimento</h2>**
 
 
-Abaixo estão listados os 17 contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
+Abaixo estão listados os 18 contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
 
 | Integrante | Matrícula | Diário de Bordo |
 | :---: | :--- | :--- |
 | **[Ana Letícia Melo Pereira]()** | 211031584 | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) |
 | **[Anna Clara Cardoso Evangelista Brandão](https://github.com/annacbrandao)** | 222006534 |[Ver Relatório](/contribuicoes_individuais/anna_clara/anna_clara.md) |
 | **[Artur de Camargos Rodrigues](https://github.com/Arturdcr)** | 221038785 | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) |
+| **[Camila Silva Cavalcante](https://github.com/CamilaSilvaC)** | 232013944 | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) |
 | **[Gabriel Saraiva Canabrava](https://github.com/gabrielsarcan)** | 202045769 | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md) |
 | **[João Lucas Araujo Siqueira]()** | 222025324 | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) |
 | **[João Vitor Lopes Ribeiro](https://github.com/Joa0V)** | 221022014 | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) |

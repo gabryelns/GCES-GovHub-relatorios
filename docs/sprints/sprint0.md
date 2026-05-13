@@ -29,9 +29,9 @@
 | **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Pendente |
 | **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara/anna_clara.md) | Pendente |
 | **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) | Pendente |
-| **Camila Silva Cavalcante** | | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) | Pendente |
+| **Camila Silva Cavalcante** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) | Concluído |
 | **Gabriel Saraiva Canabrava** | | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md) | Pendente |
-| **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
+| **João Lucas Araujo Siqueira** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local.| [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
 | **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) | Pendente |
 | **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki/julia_takaki.md) | Pendente |
 | **Letícia de Cássia Hladczuk Rodrigues** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md) | Concluído |
