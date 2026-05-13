@@ -14,7 +14,11 @@
 
 Durante esta sprint, que foi focada na organização do grupo e familiarização com o projeto. Realizei a criação do fork, estudei a documentação técnica e políticas de contribuição do projeto. Fiz a configuração completa do ambiente de desenvolvimento do projeto, incluindo a instalação e ajuste de ferramentas.
 
+Durante esta sprint, que foi focada na organização do grupo e familiarização com o projeto. Realizei a criação do fork, estudei a documentação técnica e políticas de contribuição do projeto. Fiz a configuração completa do ambiente de desenvolvimento do projeto, incluindo a instalação e ajuste de ferramentas.
+
 ### Atividades Realizadas
+
+| Data  | Atividade | Tipo  | Link/Referência | Status |
 
 | Data  | Atividade | Tipo  | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
@@ -80,7 +84,9 @@ Mostra os resultados das consultas SQL executadas para validar e explorar os dad
 * Dificuldade ao configurar o ambiente por falta de dependências.
 * Incompatibilidade de versão do Python (3.12 vs 3.11 exigido pelo projeto).
 
+
 ### Aprendizados
+
 
 * Fluxo de contribuição do projeto.
 * Como configurar ambientes de desenvolvimento usando Docker e WSL.
@@ -91,7 +97,7 @@ Mostra os resultados das consultas SQL executadas para validar e explorar os dad
 
 * [ ] Analisar as issues e encontrar uma para contribuir.
 * [ ] Atuar em conjunto com a **Luísa Ferreira** para o diagnóstico e resolução de problemas técnicos identificados na nossa issue.
-* [ ] Contribuir com pelo menos 1 PR.
+* [ ] Analisar as issues e encontrar uma para contribuir.
 
 ## Sprint 1 – [21/04/2026 – 11/05/2026]
 
