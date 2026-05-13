@@ -44,5 +44,5 @@ A Sprint 0 teve como principal objetivo a ambientação no projeto Gov Hub BR, c
 
 
 ### Plano Pessoal para a Próxima Sprint
-* [ ] Contribuir com pelo menos 1 PR.
+* [X] Contribuir com pelo menos 1 PR.
 * [ ] Participar da revisão de código de um colega.
