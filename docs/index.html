@@ -25,6 +25,70 @@
 
     .cover {
       background: var(--cover-background-color) !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover::before,
+    .cover::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      pointer-events: none;
+    }
+
+    .cover::before {
+      width: 300px;
+      height: 300px;
+      top: 10%;
+      left: 5%;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .cover::after {
+      width: 200px;
+      height: 200px;
+      bottom: 15%;
+      right: 10%;
+      animation: float 8s ease-in-out infinite reverse;
+    }
+
+    .cover-main {
+      font-family: 'Poppins', sans-serif;
+      position: relative;
+      z-index: 1;
+    }
+
+    .cover-main::before {
+      content: '';
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      bottom: -200px;
+      right: -450px;
+      animation: float 7s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .cover-main::after {
+      content: '';
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      bottom: -20px;
+      right: -300px;
+      animation: float 5s ease-in-out infinite reverse;
+      pointer-events: none;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(30px); }
     }
 
     /* -----------------------------------------------------------
@@ -62,10 +126,6 @@
     /* -----------------------------------------------------------
        Textos da Capa
     ----------------------------------------------------------- */
-    .cover-main {
-      font-family: 'Poppins', sans-serif;
-    }
-
     .cover-main h1 {
       font-size: 4.5rem !important;
       font-weight: 800;

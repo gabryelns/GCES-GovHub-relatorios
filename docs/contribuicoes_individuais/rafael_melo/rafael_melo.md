@@ -11,26 +11,117 @@
 ## Sprint 0 – [06/04/2026 – 20/04/2026]
 
 ### Resumo da Sprint
-Breve descrição das atividades e reflexões.
+Durante a sprint 0, o foco principal foi na familiarização do projeto Gov Hub BR e no aprendizado do fluxo de contribuições e a configuração do ambiente.
 
-### Atividades Realizadas
+
+
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
-| 20/08 | Configuração inicial do ambiente | Código | – | Concluído |
-| 22/08 | Leitura e estudo da documentação do projeto | Estudo | [link wiki] | Concluído |
-| 24/08 | Abertura de issue para bug em módulo X | Discussão | [link issue] | Concluído |
+| 15/04 | Leitura e estudo da documentação do projeto | Estudo | [link - Documentação](https://gov-hub.io/govhub/sobre-projeto/overview/) | Concluído |
+| 17/04 | Configuração inicial do ambiente | Código | [link - Guia de instalação](https://gov-hub.io/govhub/documentacao/instalacao/) | Concluído |
+| 17/04 | Rastreamento de good first issues | Estudo | [link - GitHub](https://github.com/GovHub-br/data-application-gov-hub/issues) | Em andamento |
+
 
 ### Maiores Avanços
-* [Exemplo] Aprendi a rodar a aplicação localmente.
-* [Exemplo] Entendi melhor a organização do repositório.
+* Consegui configurar e rodar a aplicação do GovHub localmente, validando toda a stack (Airflow, Superset e dbt);
+
+* Consegui rodar a aplicação localmente. Containers Dockers rodando:
+![Containers Docker](./assets/image01.png)
+
+* Entendi melhor a organização do repositório.
+* Configuração do Airflow e Superset.
+
+![config](./assets/image02.png)
+![config](./assets/image03.png)
+
+* Conexão do superset com o banco de dados bem sucedida
+![superset](./assets/image06.png)
+
+* Configuração do dbt
+![dbt](./assets/image04.png)
+![dbt](./assets/image05.png)
+
+
 
 ### Maiores Dificuldades
-* [Exemplo] Ambiente demorou para configurar por falta de dependências.
+* Variáveis de Ambiente: Erros de sintaxe (espaços em branco) nas chaves das variáveis do Airflow impediram a ingestão inicial.
+* Configuração inicial do ambiente local;
+* Entendimento inicial da integração entre as ferramentas do projeto (Airflow, Superset e dbt);
+
 
 ### Aprendizados
-* Uso básico de GitHub Issues.
-* Fluxo de contribuição do projeto.
+* Entendimento na prática do fluxo de contribuição e arquitetura do projeto.
+* Configuração completa do Airflow, Superset e dbt;
+* Importância de uma documentação clara e bem estruturada em projetos open source;
 
 ### Plano Pessoal para a Próxima Sprint
+* [x] Identificar uma boa issue para contribuir.
 * [ ] Contribuir com pelo menos 1 PR.
-* [ ] Participar da revisão de código de um colega.
+* [x] Participar da revisão de código de um colega.
+
+## Sprint 1 – [21/04/2026 – 04/05/2026]
+
+### Resumo da Sprint
+Trabalhei em parceria com o [Letícia Hladczuk](https://github.com/HladczukLe) para desenvolver o fluxo de dados do IBGE focado no Censo Demográfico das Mulheres. Nosso principal objetivo foi criar uma solução de coleta e organização de dados capaz de lidar com a falta de padrão nas planilhas do governo. Garantimos que o sistema funcione de forma estável, não duplique informações caso precise ser reiniciado e esteja pronto para crescer no futuro. Ao final da sprint, concluímos a implementação e abrimos o Pull Request correspondente para revisão da equipe.
+
+### Atividades Realizadas
+
+| Data  | Atividade | Tipo | Link/Referência | Status |
+| ----- | --------- | ---- | --------------- | ------ |
+| 21/04 - 23/04 | Mapeamento inicial do projeto e busca por tarefas acessíveis (*good first issues*) | Estudo | [Issues - GovHub](https://github.com/GovHub-br/data-application-gov-hub/issues) | Concluído |
+| 24/04 - 27/04 | Desenvolvimento do fluxo de dados do Censo das Mulheres (Issue #122) | Código | [Issue #122](https://github.com/GovHub-br/data-application-gov-hub/issues/122) | Concluído |
+| 28/04 | Revisão do código | Estudo/Código | - | Concluído |
+| 29/04 | Abertura do Pull Request para a Issue #122 | Código/Doc | [Link - PR](https://github.com/GovHub-br/data-application-gov-hub/pull/241) | Concluído |
+| 01/05 | Recebimento da revisão dos mantenedores do projeto | Código | [Link - PR](https://github.com/GovHub-br/data-application-gov-hub/pull/241) | Concluído |
+| 01/05 - 04/05 | Desenvolvimento das alterações solicitadas | Código | [Link - PR](https://github.com/GovHub-br/data-application-gov-hub/pull/241) | Concluído |
+| 06/05 | Revisão e submissão das alterações | Código | [Link - PR](https://github.com/GovHub-br/data-application-gov-hub/pull/241) | Concluído |
+
+### Implementação da Issue #122
+
+O foco desta entrega foi criar um caminho totalmente automatizado para extrair, limpar e disponibilizar os dados do pacote "Mulheres" do Censo Demográfico 2022. 
+
+As principais atividades foram:
+
+* **Coleta automatizada:** Conectamos nosso sistema diretamente aos servidores do IBGE para ler e baixar os arquivos de forma dinâmica. Optamos por processar esses arquivos na memória, tornando o fluxo mais rápido e evitando sobrecarregar o armazenamento local.
+* **Limpeza e organização dos dados:** Desenvolvemos regras inteligentes para ler as planilhas. O sistema agora ignora abas desnecessárias (como gráficos) e identifica automaticamente onde começam os dados reais. Além disso, padronizamos os nomes das colunas.
+* **Armazenamento seguro:** Garantimos que os dados fossem salvos no banco de forma segura. Implementamos uma trava de segurança que limpa os registros anteriores antes de uma nova inserção, impedindo a duplicação de dados caso o processo precise rodar mais de uma vez. Também adicionamos colunas para rastrear de onde e quando cada dado veio. Após a revisão do PR, ajustamos a abordagem para utilizar a função `drop_duplicates()` em vez de remover diretamente os registros do banco."
+* **Integração e documentação:** Conectamos esse novo fluxo com as ferramentas já utilizadas pelo projeto (dbt) e deixamos as tabelas e colunas devidamente documentadas no banco de dados para facilitar a vida dos próximos desenvolvedores ou analistas que forem utilizar essa base.
+
+### Maiores Avanços
+* Criamos uma solução para "fatiar" tabelas do governo que vinham agrupadas horizontalmente, utilizando as colunas em branco das próprias planilhas como guias de corte.
+* Garantimos a confiabilidade da ingestão de dados ao criar um mecanismo de prevenção contra dados duplicados.
+* Criação e submissão do Pull Request da Issue #122. 
+* Conseguimos atender aos pontos levantados na revisão do PR.
+
+### Maiores Dificuldades
+* Lidar com os dados abertos do governo. Muitas planilhas utilizam células mescladas e espaços em branco apenas por motivos estéticos, o que dificulta bastante a leitura automatizada.
+* As tabelas `.xlsx` possuem várias abas, fazendo necessária uma análise crítica para decidir o que precisaria ser lido para trazer os dados corretos. As abas preferencialmente lidas foram as últimas, onde tinham dados do SIDRA, trazendo de 1 a 3 tabelas por aba. Nesse processo, o complicado foi conseguir lidar com as diferentes estruturas que existiam de uma tabela para outra e/ou de um arquivo para outro.
+* Foi necessário criar regras de exceção para algumas tabelas específicas, para que o nome das colunas viesse como solicitado na revisão do PR.
+* Conectar no ambiente dbt local.
+* Erro ao dar push na branch, sendo necessário fazer um fork do projeto.
+
+### Aprendizados
+* Compreensão aprofundada do projeto do GovHub.
+* Aprofundei meu conhecimento em limpeza e transformação de dados com pandas, especialmente no tratamento de planilhas com estruturas irregulares.
+* Adquiri conhecimento sobre o dbt.
+* Adquiri conhecimento sobre ingestão de dados.
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">Comprobatórios da Issue #122</span></summary>
+<h3>Dag para extração das tabelas - <i>mulheres_censo_demografico_dag</i></h3>
+
+![Dag mulheres_censo_demografico_dag](assets/sprint1/dag_ibge.png)
+
+<h3>Tabelas extraídas no banco de dados PostgreSQL</h3>
+
+![Tabelas extraídas no banco de dados postgres](assets/sprint1/tabelas_ibge.png)
+
+<h3>Tabelas na camada Bronze do DBT</h3>
+
+![Tabelas na camada Bronze do DBT](assets/sprint1/dbt_bronze_122.png)
+
+</details>
+
+### Plano Pessoal para a Próxima Sprint
+- [ ] Ter o PR aprovado
+- [ ] Encontrar novas issues para contribuir
