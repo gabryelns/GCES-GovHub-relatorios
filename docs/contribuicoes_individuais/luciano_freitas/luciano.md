@@ -82,6 +82,16 @@ Durante esta sprint, concluí a etapa de integração ao projeto, que incluiu a 
 | 22/05 | Estudo sobre códigos de conduta para comunidades de Software Livre      | Estudo                         | https://opensource.guide/pt/code-of-conduct/   | Concluído |
 | 22/05 | Criação do código de conduta do projeto **Data Pipeline**      | Código                         | [Issue #277](https://github.com/GovHub-br/data-application-gov-hub/issues/277) [Pull Request](https://github.com/GovHub-br/data-application-gov-hub/pull/322)  | Concluído |
 
+### Comprovações por Imagem
+
+> Execução Local do Airflow
+![execução do airflow localmente](assets/airflow-exec.png)
+
+> Execução Local do Jupyter
+![execução do jupyter localmente](assets/jupyter-exec.png)
+
+> Execução Local do Superset
+![execução do superset localmente](assets/superset-exec.png)
 
 ### Maiores Avanços
 
