@@ -166,6 +166,7 @@ Na Sprint 3, o foco foi contribuir na issue #306 com ênfase em testes para o re
 | ----- | --------- | --------------------------------- | --------------- | ------ |
 | 26/05 - 27/05 | Desenvolvimento da solução da issue #306 com foco em testes | Código/Testes | [Issue #306](https://github.com/GovHub-br/data-application-gov-hub/issues/306) | Concluído |
 | 27/05 | Abertura do PR da issue #306 | Código/Doc | [PR #329](https://github.com/GovHub-br/data-application-gov-hub/pull/329) | Em revisão |
+| 27/05 - Atual | Início da resolução de nova issue para continuidade da sprint | Código | [Issue #318](https://github.com/GovHub-br/data-application-gov-hub/issues/318) | Em andamento |
 
 ### Maiores Avanços
 
