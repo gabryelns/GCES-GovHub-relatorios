@@ -14,7 +14,9 @@
   - [Júlia Takaki](/contribuicoes_individuais/julia_takaki/julia_takaki.md)
   - [Letícia Cássia](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md)
   - [Lívia Rodrigues](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md)
-  - [Lucas Guimarães](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md)
+  - Lucas Guimarães
+    - [Sprint 0](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes_sprint0.md)
+    - [Sprint 1](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes_sprint1.md)
   - [Lucas Marques](/contribuicoes_individuais/lucas_marques/lucas_marques.md)
   - [Luisa Ferreira](/contribuicoes_individuais/luisa_ferreira/luisa.md)
   - [Maria Clara](/contribuicoes_individuais/maria_clara/maria_clara.md)
@@ -22,6 +24,7 @@
   - [Matheus Brant](/contribuicoes_individuais/matheus_brant/matheus_brant.md)
   - [Milena Fernandes](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md)
   - [Rafael Melo](/contribuicoes_individuais/rafael_melo/rafael_melo.md)
+  - [João Fonseca](/contribuicoes_individuais/joao_fonseca/joao_fonseca.md)
 
 - [**Materiais**](/materiais/README.md)
   - [Referências](/materiais/referencias.md)

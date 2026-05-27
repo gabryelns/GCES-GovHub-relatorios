@@ -11,26 +11,39 @@
 ## Sprint 0 – [06/04/2026 – 20/04/2026]
 
 ### Resumo da Sprint
-Breve descrição das atividades e reflexões.
+
+A Sprint 0 teve como principal objetivo a ambientação no projeto Gov Hub BR, com foco no entendimento da arquitetura, estudo das documentações e configuração do ambiente de desenvolvimento local. Durante esse período, consegui compreender o fluxo de contribuição do projeto, além de realizar a configuração do ambiente e iniciar interações com o repositório por meio da análise e abertura de issues.
 
 ### Atividades Realizadas
+
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
-| 20/08 | Configuração inicial do ambiente | Código | – | Concluído |
-| 22/08 | Leitura e estudo da documentação do projeto | Estudo | [link wiki] | Concluído |
-| 24/08 | Abertura de issue para bug em módulo X | Discussão | [link issue] | Concluído |
+| 18/04 | Configuração inicial do ambiente | Código | [Guia de Instalação](https://gov-hub.io/govhub/documentacao/instalacao/) | Concluído |
+| 19/04 | Leitura e estudo da documentação do projeto | Estudo | [Documentação](https://gov-hub.io/govhub/sobre-projeto/overview/) | Concluído |
+| 20/04 | Estudo do fluxo de contribuição e análise de issues | Estudo | [Guia de Contribuição](https://gov-hub.io/govhub/comunidade/guia-contribuicao/) | Concluído |
 
 ### Maiores Avanços
-* [Exemplo] Aprendi a rodar a aplicação localmente.
-* [Exemplo] Entendi melhor a organização do repositório.
+
+* Consegui configurar o ambiente local e rodar os principais serviços do projeto;
+* Entendi a estrutura do repositório e como os componentes do projeto se conectam;
+* Compreendi o fluxo de contribuição e a importância das issues dentro do projeto;
+* Evoluí na leitura e interpretação de documentações técnicas.
 
 ### Maiores Dificuldades
-* [Exemplo] Ambiente demorou para configurar por falta de dependências.
+
+* Complexidade na configuração inicial do ambiente devido à quantidade de ferramentas envolvidas;
+* Necessidade de ajustes em dependências e versões para execução correta;
+* Entendimento inicial da arquitetura do projeto exigiu mais tempo de estudo.
 
 ### Aprendizados
-* Uso básico de GitHub Issues.
-* Fluxo de contribuição do projeto.
+
+* Fluxo de contribuição em projetos open source;
+* Importância da documentação para onboarding em projetos complexos;
+* Configuração de ambientes utilizando múltiplas ferramentas integradas;
+* Uso de GitHub Issues para organização e rastreabilidade de demandas.
 
 ### Plano Pessoal para a Próxima Sprint
-* [ ] Contribuir com pelo menos 1 PR.
-* [ ] Participar da revisão de código de um colega.
+
+* [ ] Identificar uma issue adequada para contribuição prática;
+* [ ] Participar da revisão de código de um colega;
+* [ ] Aprofundar o entendimento técnico sobre os componentes do projeto.
