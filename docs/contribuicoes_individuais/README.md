@@ -23,6 +23,7 @@ Abaixo estão listados os 18 contribuidores deste projeto. Clique no nome ou no 
 | **[Lívia Rodrigues Reis](https://github.com/Liviarodrigues1)** | 180105051 | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md) |
 | **[Lucas de Oliveira Dias Marques Ferreira](https://github.com/LucasOliveiraDiasMarquesFerreira)** | 211062787 | [Ver Relatório](/contribuicoes_individuais/lucas_marques/.md) |
 | **[Lucas Guimarães Borges](https://github.com/Lcsgborges)** | 222015159 | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md) |
+| **[Luciano de Freitas Melo](https://github.com/luciano-freitas-melo)** | 202016847 | [Ver Relatório](/contribuicoes_individuais/luciano_freitas/luciano.md) |
 | **[Luisa de Souza Ferreira](https://github.com/luisa12ll)** | 232014807 | [Ver Relatório](/contribuicoes_individuais/luisa_ferreira/luisa.md) |
 | **[Maria Clara Alves de Sousa](https://github.com/alvezclari)** | 221008329 | [Ver Relatório](/contribuicoes_individuais/maria_clara/maria_clara.md) |
 | **[Maria Eduarda Denis Duarte Marques](https://github.com/mariadenis)** | 232014502 | [Ver Relatório](/contribuicoes_individuais/maria_eduarda/maria_eduarda.md) |
