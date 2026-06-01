@@ -26,7 +26,7 @@
 
 | Integrante | Contribuições | Links (Diário de Bordo) | Status |
 | :--- | :--- | :---: | :---: |
-| **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Pendente |
+| **Ana Letícia Melo Pereira** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Concluído |
 | **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara/anna_clara.md) | Pendente |
 | **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) | Pendente |
 | **Camila Silva Cavalcante** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) | Concluído |
