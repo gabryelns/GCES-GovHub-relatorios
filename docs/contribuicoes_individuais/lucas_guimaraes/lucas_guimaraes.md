@@ -165,13 +165,14 @@ Na Sprint 3, o foco foi contribuir na issue #306 com ênfase em testes para o re
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
 | 26/05 - 27/05 | Desenvolvimento da solução da issue #306 com foco em testes | Código/Testes | [Issue #306](https://github.com/GovHub-br/data-application-gov-hub/issues/306) | Concluído |
-| 27/05 | Abertura do PR da issue #306 | Código/Doc | [PR #329](https://github.com/GovHub-br/data-application-gov-hub/pull/329) | Em revisão |
-| 27/05 - Atual | Início da resolução de nova issue para continuidade da sprint | Código | [Issue #318](https://github.com/GovHub-br/data-application-gov-hub/issues/318) | Em andamento |
+| 27/05 | Abertura do PR da issue #306 | Código/Doc | [PR #329](https://github.com/GovHub-br/data-application-gov-hub/pull/329) | Concluído |
+| 27/05 - Atual | Início da resolução de nova issue para continuidade da sprint | Código | [Issue #318](https://github.com/GovHub-br/data-application-gov-hub/issues/318) | Em desenvolvimento |
+| 31/05 | Commit final da entrega da issue #306 | Código | [Commit](https://github.com/GovHub-br/data-application-gov-hub/commit/a9ee872650713062e7acd99d40ad73ee6154348a) | Concluído |
 
 ### Maiores Avanços
 
 * Estruturei uma contribuição orientada a testes para melhorar a confiabilidade da plataforma;
-* Submeti o PR #329 e deixei a entrega pronta para validação dos mantenedores.
+* Submeti o PR #329 e ele foi integrado a branch main sem problemas.
 
 ### Maiores Dificuldades
 
@@ -185,5 +186,4 @@ Na Sprint 3, o foco foi contribuir na issue #306 com ênfase em testes para o re
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Acompanhar o feedback dos mantenedores no PR #329;
 * [ ] Continuar evoluindo a suíte de testes do projeto.
