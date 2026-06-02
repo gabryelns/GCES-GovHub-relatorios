@@ -16,6 +16,7 @@
   - [Lívia Rodrigues](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md)
   - [Lucas Guimarães](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md)
   - [Lucas Marques](/contribuicoes_individuais/lucas_marques/lucas_marques.md)
+  - [Lucas Martins](/contribuicoes_individuais/lucas_martins/lucas_martins.md)
   - [Luciano Freitas](/contribuicoes_individuais/luciano_freitas/luciano.md)
   - [Luisa Ferreira](/contribuicoes_individuais/luisa_ferreira/luisa.md)
   - [Maria Clara](/contribuicoes_individuais/maria_clara/maria_clara.md)
