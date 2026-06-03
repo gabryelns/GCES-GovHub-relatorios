@@ -112,6 +112,20 @@ Utilize o menu lateral para explorar as seções do nosso trabalho:
   </div>
 
   <div style="width: 150px;">
+    <a href="#/contribuicoes_individuais/lucas_martins/lucas_martins.md" style="text-decoration: none; color: inherit;">
+      <img src="https://github.com/martinsglucas.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Lucas Martins<br><span style="font-weight: normal; opacity: 0.7;">221022088</span></p>
+    </a>
+  </div>
+
+  <div style="width: 150px;">
+    <a href="#/contribuicoes_individuais/luciano_freitas/luciano.md" style="text-decoration: none; color: inherit;">
+      <img src="https://github.com/luciano-freitas-melo.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Luciano Freitas<br><span style="font-weight: normal; opacity: 0.7;">202016847</span></p>
+    </a>
+  </div>
+
+  <div style="width: 150px;">
     <a href="#/contribuicoes_individuais/luisa_ferreira/luisa.md" style="text-decoration: none; color: inherit;">
       <img src="https://github.com/luisa12ll.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Luísa Ferreira<br><span style="font-weight: normal; opacity: 0.7;">232014807</span></p>
