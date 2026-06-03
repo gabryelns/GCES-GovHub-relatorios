@@ -123,5 +123,43 @@ As principais atividades foram:
 </details>
 
 ### Plano Pessoal para a Próxima Sprint
-- [ ] Ter o PR aprovado
-- [ ] Encontrar novas issues para contribuir
+- [x] Ter o PR aprovado
+- [x] Encontrar novas issues para contribuir
+
+---
+
+## Sprint 2 – [05/05/2026 – 25/05/2026]
+ 
+### Resumo da Sprint
+Nesta sprint, trabalhei em parceria com o [Letícia Hladczuk](https://github.com/HladczukLe) na Issue #276 do GovHub BR. Nosso foco foi estruturar o guia de contribuição (CONTRIBUTING.md).
+
+Nós abrimos o Pull Request (#281) e ele chegou a ser mergeado na branch principal no dia 19/05. No entanto, ainda no mesmo dia, realizaram um revert da nossa entrega por falta de uma revisão mais detalhada. Como as duas ações (o merge e o revert) aconteceram quase simultaneamente, não percebemos de imediato que a nossa contribuição havia sido desfeita e os PRs haviam sido fechados. Identificamos isso alguns dias depois, o que atrasou o início das correções necessárias.
+
+### Atividades Realizadas
+ 
+| Data | Atividade | Tipo | Link/Referência | Status |
+| ---- | --------- | ---- | --------------- | ------ |
+| 05/05 - 12/05 | Busca de novas issues para contribuir | Estudo | [Issues - GovHub](https://github.com/GovHub-br/data-application-gov-hub/issues) | Concluído |
+| 13/05 - 17/05 | Desenvolvimento do `CONTRIBUTING.md` (Issue #276) | Doc | [Issue #276](https://github.com/GovHub-br/data-application-gov-hub/issues/276) | Concluído |
+| 18/05 | Revisão e abertura do Pull Request #281 | Doc | [Link - PR #281](https://github.com/GovHub-br/data-application-gov-hub/pull/281) | Concluído |
+| 19/05 | PR aprovado e mergeado na main | Doc | [Link - PR #281](https://github.com/GovHub-br/data-application-gov-hub/pull/281) | Concluído |
+| 19/05 | PR #285 (revert do #281) aberto e mergeado no mesmo dia pelo mantenedor | Doc | [Link - PR #285](https://github.com/GovHub-br/data-application-gov-hub/pull/285)  | Concluído |
+| 23/05 - 25/05 | Documento corrigido conforme revisão  | Doc | - | Concluído |
+| 25/05 | Acompanhamento do PR e aguardo de revisão  | Doc | - | Em andamento |
+ 
+### Maiores Avanços
+* Criação completa do `CONTRIBUTING.md`, suprindo uma lacuna importante de documentação no projeto.
+* Identificação clara dos pontos a melhorar a partir do feedback dos mantenedores.
+
+### Maiores Dificuldades
+* Compreender com profundidade todas as ferramentas e convenções reais do projeto para não documentar informações incorretas ou desatualizadas.
+* Adequar a documentação à estrutura real do projeto exigiu maior imersão no repositório.
+
+### Aprendizados
+* Compreensão da importância de documentação viva e alinhada à realidade do projeto, e não apenas à teoria.
+* Experiência prática com o processo de revert e o ciclo de revisão em projetos open source.
+* Aprofundamento nas convenções de Conventional Commits e boas práticas de contribuição em projetos colaborativos.
+
+### Plano Pessoal para a Próxima Sprint
+- [ ] Ter o novo PR aprovado por todos os revisores.
+- [ ] Buscar novas issues para contribuir.
