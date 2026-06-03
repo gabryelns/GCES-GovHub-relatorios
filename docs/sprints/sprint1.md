@@ -1,4 +1,4 @@
-# Relatório de Contribuição – Sprint 0
+# Relatório de Contribuição – Sprint 1
 
 **Disciplina:** Gestão de Configuração e Evolução de Software
 
@@ -12,7 +12,7 @@
 
 ## 1. Objetivos da Sprint
 
-
+Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e desenvolver.
 ---
 ## 2. Entregas Coletivas
 
@@ -40,7 +40,7 @@
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
 | **Matheus de Siqueira Brant** | |  |   |
-| **Milena Fernandes Rocha** | |  |  |
+| **Milena Fernandes Rocha** | | [Ver Relatório](/docs/contribuicoes_individuais/milena_fernandes/milena_fernandes1.md) | Concluído 
 | **Rafael Melo Matuda** | |  |   |
 | **João Guilherme Fonseca** | |  |   |
 
