@@ -26,12 +26,12 @@
 
 | Integrante | Contribuições | Links (Diário de Bordo) | Status |
 | :--- | :--- | :---: | :---: |
-| **Ana Letícia Melo Pereira** | | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Pendente |
+| **Ana Letícia Melo Pereira** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/ana_leticia/ana_leticia.md) | Concluído |
 | **Anna Clara Cardoso Evangelista Brandão** | | [Ver Relatório](/contribuicoes_individuais/anna_clara/anna_clara.md) | Pendente |
 | **Artur de Camargos Rodrigues** | | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) | Pendente |
 | **Camila Silva Cavalcante** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) | Concluído |
 | **Gabriel Saraiva Canabrava** | | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md) | Pendente |
-| **João Lucas Araujo Siqueira** | | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
+| **João Lucas Araujo Siqueira** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local.| [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) | Pendente |
 | **João Vitor Lopes Ribeiro** | | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) | Pendente |
 | **Júlia Takaki Neves** | | [Ver Relatório](/contribuicoes_individuais/julia_takaki/julia_takaki.md) | Pendente |
 | **Letícia de Cássia Hladczuk Rodrigues** | Estudo sobre o projeto, criação do fork do projeto e configuração do ambiente local. | [Ver Relatório](/contribuicoes_individuais/leticia_cassia/leticia_cassia.md) | Concluído |
@@ -44,6 +44,7 @@
 | **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant/matheus_brant.md) | Pendente |
 | **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md) | Concluído |
 | **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo/rafael_melo.md) | Pendente |
+| **João Guilherme Fonseca** | | [Ver Relatório](/contribuicoes_individuais/joao_fonseca/joao_fonseca.md) | Pendente |
 
 ---
 

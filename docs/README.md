@@ -64,7 +64,7 @@ Utilize o menu lateral para explorar as seções do nosso trabalho:
 
   <div style="width: 150px;">
     <a href="#/contribuicoes_individuais/joao_lucas/joao_lucas.md" style="text-decoration: none; color: inherit;">
-      <img src="https://github.com/ghost.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="https://github.com/jlucasiqueira.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">João Lucas<br><span style="font-weight: normal; opacity: 0.7;">222025324</span></p>
     </a>
   </div>
@@ -108,6 +108,20 @@ Utilize o menu lateral para explorar as seções do nosso trabalho:
     <a href="#/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md" style="text-decoration: none; color: inherit;">
       <img src="https://github.com/Lcsgborges.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Lucas Guimarães<br><span style="font-weight: normal; opacity: 0.7;">222015159</span></p>
+    </a>
+  </div>
+
+  <div style="width: 150px;">
+    <a href="#/contribuicoes_individuais/lucas_martins/lucas_martins.md" style="text-decoration: none; color: inherit;">
+      <img src="https://github.com/martinsglucas.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Lucas Martins<br><span style="font-weight: normal; opacity: 0.7;">221022088</span></p>
+    </a>
+  </div>
+
+  <div style="width: 150px;">
+    <a href="#/contribuicoes_individuais/luciano_freitas/luciano.md" style="text-decoration: none; color: inherit;">
+      <img src="https://github.com/luciano-freitas-melo.png" width="120" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p style="margin-top: 10px; font-weight: bold; font-size: 0.9em;">Luciano Freitas<br><span style="font-weight: normal; opacity: 0.7;">202016847</span></p>
     </a>
   </div>
 
