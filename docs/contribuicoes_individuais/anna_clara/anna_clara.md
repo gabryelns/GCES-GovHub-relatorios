@@ -191,19 +191,19 @@ Para a resolução do problema, construí um sistema em três camadas: um coleto
 
 | Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 |------|-----------|-----------------------------------|-----------------|--------|
-| 07/05 | Leitura e análise do enunciado do projeto e do Boletim de Conjuntura 3T25 de exemplo | Estudo | [Boletim 3T25](https://github.com/unb-Sistemas-de-Machine-learning/Projetos-Individuais-2026-1/blob/main/projeto-individual-4/exemplo_Boletim_Conjuntura_2025_3T.pdf) | Concluído |
+| 07/05 | Leitura e análise do enunciado do projeto e do Boletim de Conjuntura 3T25 de exemplo | Estudo | [Boletim 3T25][link-ExtraBoletim] | Concluído |
 | 07/05 | Definição da arquitetura: Full-Scan com PyMuPDF + GPT-4 + Instructor + FastAPI + APScheduler | Discussão | — | Concluído |
-| 08/05 | Implementação do Contrato Semântico (`src/models.py`) com schema Pydantic, validações de range e blindagem contra alucinações | Código | [models.py](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/models.py) | Concluído |
-| 10/05 | Implementação do Catálogo de Dados e Linhagem (`src/catalog.py`) com deduplicação SHA-256 dupla e data lineage por PDF | Código | [catalog.py](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/catalog.py) | Concluído |
-| 12/05 | Implementação do Motor de Extração Full-Scan (`src/extractor.py`) com PyMuPDF + GPT-4o + system prompt com 7 regras semânticas | Código | [extractor.py](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/extractor.py) | Concluído |
-| 13/05 | Implementação dos Scrapers de RI e Scheduler (`src/collector.py`) para MRV, Direcional e Tenda com polling diário via APScheduler | Código | [collector.py](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/collector.py) | Concluído |
-| 17/05 | Implementação da API REST (`src/api.py`) com FastAPI, endpoints filtráveis por empresa/ano/trimestre e catálogo de linhagem | Código | [api.py](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/api.py) | Concluído |
-| 21/05 | Criação de 23 testes automatizados cobrindo contrato semântico, idempotência, CRUD e resiliência a dois layouts de PDF | Código | [tests/](https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/tests/) | Concluído |
+| 08/05 | Implementação do Contrato Semântico (`src/models.py`) com schema Pydantic, validações de range e blindagem contra alucinações | Código | [models.py][link-ExtraContratoSemantico] | Concluído |
+| 10/05 | Implementação do Catálogo de Dados e Linhagem (`src/catalog.py`) com deduplicação SHA-256 dupla e data lineage por PDF | Código | [catalog.py][link-ExtraCatalogo] | Concluído |
+| 12/05 | Implementação do Motor de Extração Full-Scan (`src/extractor.py`) com PyMuPDF + GPT-4o + system prompt com 7 regras semânticas | Código | [extractor.py][link-ExtraExtractor] | Concluído |
+| 13/05 | Implementação dos Scrapers de RI e Scheduler (`src/collector.py`) para MRV, Direcional e Tenda com polling diário via APScheduler | Código | [collector.py][link-ExtraCollector] | Concluído |
+| 17/05 | Implementação da API REST (`src/api.py`) com FastAPI, endpoints filtráveis por empresa/ano/trimestre e catálogo de linhagem | Código | [api.py][link-ExtraApi] | Concluído |
+| 21/05 | Criação de 23 testes automatizados cobrindo contrato semântico, idempotência, CRUD e resiliência a dois layouts de PDF | Código | [tests/][link-ExtraTests] | Concluído |
 | 21/05 | Validação local: 23/23 testes passando sem necessidade de API key | Teste | — | Concluído |
 
 ### Detalhamento das atividades realizadas
 
-O link para o Fork onde foi adicionado todo o projeto extra desenvolvido pode ser encontrado [aqui](https://github.com/annacbrandao/Projetos-Individuais-2026-1/tree/anna-brandao/projeto-4).
+O link para o Fork onde foi adicionado todo o projeto extra desenvolvido pode ser encontrado [aqui][link-ExtraLinkGithub].
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Resultado dos testes rodando</span></summary>
@@ -288,8 +288,113 @@ Print do resultado do terminal ao colocar o comando:
 
 ### Resumo da Sprint
 
+Nesta sprint, com o ambiente do Gov Hub já configurado nas sprints anteriores, voltei o foco para a primeira contribuição de código ao projeto. Analisei as issues abertas com o rótulo OSS (voltadas à comunidade), escolhi a issue [#309][link-Issue309] — que pedia a criação de testes unitários para o cliente `cliente_contratos.py` — e a desenvolvi do início ao fim: estudo do código a ser testado, implementação dos testes com mocks, validação local e abertura do Pull Request seguindo o guia de contribuição do projeto.
+
+### Atividades realizadas
+
+| Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+|------|-----------|-----------------------------------|-----------------|--------|
+| 26/05 | Análise das issues abertas e escolha da issue #309 (testes unitários para `cliente_contratos.py`) | Estudo | [Issue #309][link-Issue309] | Concluído |
+| 03/06 | Comentário na issue manifestando interesse em assumi-la, conforme o guia de contribuição | Discussão | [Issue #309][link-Issue309] | Concluído |
+| 03/06 | Estudo do `cliente_contratos.py` e da classe base `cliente_base.py` para entender o comportamento a ser testado | Estudo | — | Concluído |
+| 04/06 | Implementação dos testes unitários cobrindo os seis métodos da classe `ClienteContratos`, com mocks do método `request` | Código | [test_cliente_contratos.py][link-TestContratoGovhub] | Concluído |
+| 04/06 | Validação local: 18 testes passando, formatação (black) e lint (ruff) sem apontamentos, 100% de cobertura no arquivo-alvo | Teste | — | Concluído |
+| 04/06 | Ajuste do fluxo de Git (rebase com `upstream/main`, padronização do commit) e abertura do Pull Request | Código | [Pull Request][link-PR1govhub] | Concluído |
+
+### Detalhamento das atividades realizadas
+
+A contribuição consistiu em escrever testes unitários para `airflow_lappis/plugins/cliente_contratos.py`. A classe `ClienteContratos` possui seis métodos, todos seguindo o mesmo padrão: realizam uma requisição HTTP por meio do método `request` (herdado de `ClienteBase`) e retornam a lista de dados apenas quando o status é 200 e o corpo da resposta é uma lista; caso contrário, retornam `None`.
+
+Para cada um dos seis métodos, implementei três cenários de teste:
+- **Sucesso:** status 200 com uma lista, esperando o retorno dos dados;
+- **Status de erro:** status diferente de 200 (ex.: 404), esperando `None`;
+- **Resposta fora do formato:** status 200 com um corpo que não é lista, esperando `None`.
+
+Também validei que cada método chama o endpoint correto. As requisições foram simuladas com `unittest.mock`, sem nenhuma chamada real à API — atendendo ao pedido da issue por "mocks estruturados".
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Comentário na issue manifestando interesse</span></summary>
+
+Print do comentário deixado na issue #309 solicitando a atribuição, conforme orienta o guia de contribuição do projeto.
+
+![Comentário](./assets/sprint3/comentarioIssue.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. Testes passando e cobertura do arquivo</span></summary>
+
+Prints do terminal mostrando os 18 testes passando e a cobertura de 100% sobre `cliente_contratos.py`.
+
+![Testes passando](./assets/sprint3/govhub-testesPassando1.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![Testes passando](./assets/sprint3/govhub-testesPassando.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Verificação de formatação e lint</span></summary>
+
+Print do terminal mostrando o arquivo aprovado em `black` e `ruff`, sem apontamentos.
+
+![Black e Ruff](./assets/sprint3/govhub-blackRuffCheck.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">4. Pull Request aberto</span></summary>
+
+Prints da página do Pull Request no repositório principal.
+
+![PR](./assets/sprint3/govhub-printPR1.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![PR](./assets/sprint3/govhub-printPR2.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![PR](./assets/sprint3/govhub-printPR3.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+### Maiores Avanços
+
+* Primeira contribuição de código ao Gov Hub levada do início ao fim, seguindo o fluxo completo do projeto (fork, branch, commit padronizado, rebase com o upstream e Pull Request).
+* Cobertura de 100% do arquivo-alvo, com todos os métodos e cenários relevantes testados.
+* Compreensão prática de como escrever testes unitários isolando dependências externas (API) com mocks.
+
+### Maiores Dificuldades
+
+* Os hooks de Git do projeto (pré-commit e pré-push) executam formatação e lint sobre o repositório inteiro, falhando por causa de problemas pré-existentes em arquivos não relacionados à minha contribuição. Precisei investigar a fundo para confirmar que meu arquivo estava correto e que os erros não eram meus, comparando com o estado original do `main` e verificando o CI do projeto.
+* A configuração do `mypy` reportava o import como não encontrado quando rodado de forma isolada, comportamento que ocorre igualmente em todo o projeto e está ligado à forma como o `pythonpath` é resolvido.
+* Pouca experiência prévia com `unittest.mock` e com o fluxo de rebase no Git.
+
+### Aprendizados
+
+* Como escrever testes unitários com `pytest` e `unittest.mock`, simulando respostas de uma API sem depender dela.
+* Importância de validar uma contribuição isoladamente (apenas o arquivo alterado) quando as ferramentas de qualidade do projeto rodam sobre todo o repositório.
+* Fluxo de manutenção de uma branch atualizada com o `upstream` via rebase, e a diferença entre os remotes `origin` (fork) e `upstream` (repositório principal).
+* Convenções de Conventional Commits aplicadas tanto ao nome da branch quanto à mensagem de commit.
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Acompanhar o code review do Pull Request e implementar eventuais ajustes solicitados pelos mantenedores.
+* [ ] Buscar uma segunda issue para contribuir.
+* [ ] Manter o diário de bordo atualizado em paralelo às atividades.
+
 [link-Documentação]: https://gov-hub.io/govhub/sobre-projeto/overview/
 [link-Fork]: https://github.com/annacbrandao/gov-hub
 [link-Ebook]: https://gov-hub.io/govhub/ebook-viewer/
 [link-Config]: https://gov-hub.io/govhub/documentacao/instalacao/
 [link-Issues]: https://github.com/orgs/GovHub-br/projects/4/views/1?filterQuery=oss
+[link-ExtraBoletim]: https://github.com/unb-Sistemas-de-Machine-learning/Projetos-Individuais-2026-1/blob/main/projeto-individual-4/exemplo_Boletim_Conjuntura_2025_3T.pdf
+[link-ExtraContratoSemantico]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/models.py
+[link-ExtraCatalogo]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/catalog.py
+[link-ExtraExtractor]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/extractor.py
+[link-ExtraCollector]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/collector.py
+[link-ExtraApi]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/blob/anna-brandao/projeto-4/anna-brandao/projeto-4/src/api.py
+[link-ExtraTests]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/tree/anna-brandao/projeto-4/anna-brandao/projeto-4/tests
+[link-ExtraLinkGithub]: https://github.com/annacbrandao/Projetos-Individuais-2026-1/tree/anna-brandao/projeto-4
+[link-Issue309]: https://github.com/GovHub-br/data-application-gov-hub/issues/309
+[link-PR1govhub]: https://github.com/GovHub-br/data-application-gov-hub/pull/339#issuecomment-4625996046
+[link-TestContratoGovhub]: https://github.com/annacbrandao/data-application-gov-hub/blob/test/cliente-contratos/tests/test_cliente_contratos.py
