@@ -63,5 +63,3 @@ Foi realizada a exploração dos pipelines existentes e da organização do repo
 * [ ] Aprofundar o entendimento sobre a arquitetura de dados do projeto (armazenamento e consumo).
 
 
-
-
