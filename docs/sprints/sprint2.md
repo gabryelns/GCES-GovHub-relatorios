@@ -40,7 +40,7 @@
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
 | **Matheus de Siqueira Brant** | |  |   |
-| **Milena Fernandes Rocha** | Sprint 2 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-2--12/05/2026–-26052026) | Concluído |
+| **Milena Fernandes Rocha** | Sprint 2 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-2--12052026--26052026) | Concluído |
 | **Rafael Melo Matuda** | |  |   |
 | **João Guilherme Fonseca** | |  |   |
 
