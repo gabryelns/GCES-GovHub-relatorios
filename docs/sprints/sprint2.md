@@ -1,4 +1,4 @@
-# Relatório de Contribuição – Sprint 1
+# Relatório de Contribuição – Sprint 2
 
 **Disciplina:** Gestão de Configuração e Evolução de Software
 
@@ -6,13 +6,13 @@
 
 **Comunidade/Projeto de Software Livre:** Gov Hub BR
 
-**Período da Sprint:** 21/04/2026 - 11/05/2026
+**Período da Sprint:** 12/05/2026 – 26/05/2026
 
 ---
 
 ## 1. Objetivos da Sprint
 
-Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e desenvolver.
+
 ---
 ## 2. Entregas Coletivas
 
@@ -40,7 +40,7 @@ Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e 
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
 | **Matheus de Siqueira Brant** | |  |   |
-| **Milena Fernandes Rocha** | Sprint 1 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-1--21042026--11052026) | Concluído |
+| **Milena Fernandes Rocha** | Sprint 2 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-2--12052026--26052026) | Concluído |
 | **Rafael Melo Matuda** | |  |   |
 | **João Guilherme Fonseca** | |  |   |
 
