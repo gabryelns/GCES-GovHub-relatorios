@@ -14,6 +14,7 @@
 Essa sprint inicial teve como foco a familiarização com o projeto Gov Hub e a configuração do ambiente do mesmo, ainda, de maneira mais coletiva o aprendizado do fluxo d>
 
 ### Atividades Realizadas
+
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
 | 16/04 | Criação do fork | Código | [Fork][link-Fork] | Concluído |
@@ -288,22 +289,35 @@ Print do resultado do terminal ao colocar o comando:
 
 ### Resumo da Sprint
 
-Nesta sprint, com o ambiente do Gov Hub já configurado nas sprints anteriores, voltei o foco para a primeira contribuição de código ao projeto. Analisei as issues abertas com o rótulo OSS (voltadas à comunidade), escolhi a issue [#309][link-Issue309] — que pedia a criação de testes unitários para o cliente `cliente_contratos.py` — e a desenvolvi do início ao fim: estudo do código a ser testado, implementação dos testes com mocks, validação local e abertura do Pull Request seguindo o guia de contribuição do projeto.
+Nesta sprint, com o ambiente do Gov Hub já configurado nas sprints anteriores, voltei o foco para duas frentes de trabalho simultâneas. Na contribuição ao Gov Hub, analisei as issues abertas com o rótulo OSS (voltadas à comunidade), escolhi a issue [#309][link-Issue309] — que solicitava a implementação de testes unitários para o módulo `cliente_contratos.py` — e a levei do início ao fim: estudo do código, implementação dos testes com mocks, validação local e abertura do Pull Request. Em paralelo, dediquei a sprint à entrega do **Projeto Individual da disciplina de GCES**, que consistiu em modernizar e automatizar o ciclo de vida do projeto mk.js, um jogo de luta multiplayer, implementando containerização, CI/CD, testes, segurança, qualidade de código, orquestração com Kubernetes e deploy contínuo em produção.
 
 ### Atividades realizadas
 
 | Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 |------|-----------|-----------------------------------|-----------------|--------|
 | 26/05 | Análise das issues abertas e escolha da issue #309 (testes unitários para `cliente_contratos.py`) | Estudo | [Issue #309][link-Issue309] | Concluído |
-| 03/06 | Comentário na issue manifestando interesse em assumi-la, conforme o guia de contribuição | Discussão | [Issue #309][link-Issue309] | Concluído |
+| 03/06 | Comentário na issue #309 manifestando interesse em assumi-la, conforme o guia de contribuição | Discussão | [Issue #309][link-Issue309] | Concluído |
 | 03/06 | Estudo do `cliente_contratos.py` e da classe base `cliente_base.py` para entender o comportamento a ser testado | Estudo | — | Concluído |
-| 04/06 | Implementação dos testes unitários cobrindo os seis métodos da classe `ClienteContratos`, com mocks do método `request` | Código | [test_cliente_contratos.py][link-TestContratoGovhub] | Concluído |
-| 04/06 | Validação local: 18 testes passando, formatação (black) e lint (ruff) sem apontamentos, 100% de cobertura no arquivo-alvo | Teste | — | Concluído |
+| 04/06 | Implementação dos testes unitários para Gov Hub cobrindo os seis métodos da classe `ClienteContratos`, com mocks do método `request` | Código | [test_cliente_contratos.py][link-TestContratoGovhub] | Concluído |
+| 04/06 | Validação local Gov Hub: 18 testes passando, formatação (black) e lint (ruff) sem apontamentos, 100% de cobertura no arquivo-alvo | Teste | — | Concluído |
 | 04/06 | Ajuste do fluxo de Git (rebase com `upstream/main`, padronização do commit) e abertura do Pull Request | Código | [Pull Request][link-PR1govhub] | Concluído |
+| 05/06 | Análise dos requisitos do Projeto Individual de GCES e modernização das dependências (Express 3->4, Socket.io 0.9->4) | Código | [Repositório GCES][link-RepoGCES] | Concluído |
+| 05/06 | Fase 1 — Criação do `Dockerfile.dev` com hot-reload via nodemon | Código | [Repositório GCES][link-RepoGCES1] | Concluído |
+| 05/06 | Fase 2 — Docker Compose integrando Node.js e PostgreSQL com camada de persistência de partidas | Código | [Repositório GCES][link-RepoGCES2] | Concluído |
+| 05/06 | Fase 3 — Pipeline de CI com lint (ESLint) e build via GitHub Actions | Código | [Repositório GCES][link-RepoGCES3] | Concluído |
+| 05/06 | Fases 4 e 5 — Implementação de testes unitários (com bug intencional -> correção) e testes de fuzzing para o backend | Código | [Repositório GCES][link-RepoGCES45] | Concluído |
+| 07/06 | Fase 6 — Integração de SAST com CodeQL e SCA com npm audit no pipeline de CI | Código | [Repositório GCES][link-RepoGCES6] | Concluído |
+| 07/06 | Fase 7 — Integração do SonarCloud com Quality Gate configurado | Código | [Repositório GCES][link-RepoGCES7] | Concluído |
+| 07/06 | Fase 8 — Dockerfiles de produção com multi-stage build e Nginx como servidor de arquivos estáticos | Código | [Repositório GCES][link-RepoGCES8] | Concluído |
+| 07/06 | Fase 9 — Manifestos Kubernetes e configuração Terraform para orquestração da aplicação | Código | [Repositório GCES][link-RepoGCES9] | Concluído |
+| 07/06 | Fase 10 — CD com publicação de imagens no GitHub Container Registry e configuração de HTTPS via Cert Manager | Código | [Repositório GCES][link-RepoGCES10] | Concluído |
+| 07/06 | Deploy em produção no Render, expansão da cobertura de testes para 100% no arquivo principal e documentação final | Código/Doc | [Produção][link-ProducaoGCES] | Concluído |
 
 ### Detalhamento das atividades realizadas
 
-A contribuição consistiu em escrever testes unitários para `airflow_lappis/plugins/cliente_contratos.py`. A classe `ClienteContratos` possui seis métodos, todos seguindo o mesmo padrão: realizam uma requisição HTTP por meio do método `request` (herdado de `ClienteBase`) e retornam a lista de dados apenas quando o status é 200 e o corpo da resposta é uma lista; caso contrário, retornam `None`.
+#### Contribuição ao Gov Hub — Issue #309
+
+A contribuição consistiu em escrever testes unitários para `airflow_lappis/plugins/cliente_contratos.py`. A classe `ClienteContratos` possui seis métodos, todos seguindo o mesmo padrão: realizam uma requisição HTTP por meio do método `request` da classe base e retornam os dados ou `None` em caso de erro.
 
 Para cada um dos seis métodos, implementei três cenários de teste:
 - **Sucesso:** status 200 com uma lista, esperando o retorno dos dados;
@@ -314,7 +328,6 @@ Também validei que cada método chama o endpoint correto. As requisições fora
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Comentário na issue manifestando interesse</span></summary>
-
 Print do comentário deixado na issue #309 solicitando a atribuição, conforme orienta o guia de contribuição do projeto.
 
 ![Comentário](./assets/sprint3/comentarioIssue.png)
@@ -323,7 +336,6 @@ Print do comentário deixado na issue #309 solicitando a atribuição, conforme 
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. Testes passando e cobertura do arquivo</span></summary>
-
 Prints do terminal mostrando os 18 testes passando e a cobertura de 100% sobre `cliente_contratos.py`.
 
 ![Testes passando](./assets/sprint3/govhub-testesPassando1.png)
@@ -335,7 +347,6 @@ Prints do terminal mostrando os 18 testes passando e a cobertura de 100% sobre `
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Verificação de formatação e lint</span></summary>
-
 Print do terminal mostrando o arquivo aprovado em `black` e `ruff`, sem apontamentos.
 
 ![Black e Ruff](./assets/sprint3/govhub-blackRuffCheck.png)
@@ -344,7 +355,6 @@ Print do terminal mostrando o arquivo aprovado em `black` e `ruff`, sem apontame
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">4. Pull Request aberto</span></summary>
-
 Prints da página do Pull Request no repositório principal.
 
 ![PR](./assets/sprint3/govhub-printPR1.png)
@@ -357,29 +367,95 @@ Prints da página do Pull Request no repositório principal.
 <p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
 </details>
 
+---
+
+#### Projeto Individual de GCES
+
+O projeto consistiu em modernizar e automatizar o ciclo de vida completo do **mk.js**, um jogo de luta multiplayer com backend em Node.js e frontend em HTML5 Canvas. O código original utilizava dependências de 2013 (Express 3.x, Socket.io 0.9.x), incompatíveis com versões modernas do Node.js, o que exigiu modernização antes de qualquer outra etapa.
+
+As 10 fases foram implementadas de forma incremental:
+
+- **Fases 1 e 2:** Containerização com Docker para desenvolvimento (hot-reload via nodemon) e produção, integração com PostgreSQL via Docker Compose e implementação de persistência de histórico de partidas.
+- **Fase 3:** Pipeline de CI com ESLint configurado para falhar em erros de lint.
+- **Fase 4:** Identificação de um bug real no código (`this._games[game]` ao invés de `this._games[id]`) e demonstração do ciclo exigido: primeiro commit com teste falhando, segundo commit com a correção.
+- **Fase 5:** Testes de fuzzing com 18 entradas maliciosas (null, SQL injection, path traversal, strings gigantes), totalizando 59 testes.
+- **Fase 6:** SAST com CodeQL e SCA com `npm audit`.
+- **Fase 7:** Integração com SonarCloud — Quality Gate passou com Security Rating A, Reliability A, Maintainability A, 0 vulnerabilidades e 51,9% de cobertura.
+- **Fase 8:** Dockerfiles de produção com multi-stage build em Alpine e Nginx servindo os arquivos estáticos do frontend.
+- **Fase 9:** Manifestos Kubernetes para todos os componentes (namespace, secrets, PVC, deployments, services, Ingress com Cert Manager) e configuração Terraform.
+- **Fase 10:** CD automático publicando imagens no GitHub Container Registry a cada push, com HTTPS via Cert Manager e Nginx redirecionando 80→443. Deploy público realizado no Render.
+
+A cobertura de testes foi expandida para **100% de statements, branches, funções e linhas** no arquivo `games.js` por meio de mocks de socket.
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Pipeline de CI/CD verde</span></summary>
+
+Prints da aba Actions do repositório do projeto individual mostrando parte dos workflows passando.
+
+![Actions](./assets/sprint3/projetoIndividual-actionsGreen1.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![Actions](./assets/sprint3/projetoIndividual-actionsGreen2.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. SonarCloud — métricas de qualidade</span></summary>
+
+Prints do dashboard do SonarCloud mostrando o Quality Gate passando e as métricas do projeto.
+
+![SonarCloud](./assets/sprint3/projetoIndividual-sonarCloud1.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![SonarCloud](./assets/sprint3/projetoIndividual-sonarCloud2.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![SonarCloud](./assets/sprint3/projetoIndividual-sonarCloud3.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Ambiente de produção público</span></summary>
+
+Print do repositório no GitHub com a URL de produção e print da aplicação rodando em produção.
+
+![Repositório](./assets/sprint3/projetoIndividual-repositorio.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+
+![Produção](./assets/sprint3/projetoIndividual-producao.png)
+<p align="center"><i><b>Fonte:</b> Anna Clara Brandão</i></p>
+</details>
+
 ### Maiores Avanços
 
 * Primeira contribuição de código ao Gov Hub levada do início ao fim, seguindo o fluxo completo do projeto (fork, branch, commit padronizado, rebase com o upstream e Pull Request).
-* Cobertura de 100% do arquivo-alvo, com todos os métodos e cenários relevantes testados.
-* Compreensão prática de como escrever testes unitários isolando dependências externas (API) com mocks.
+* Cobertura de 100% do arquivo-alvo no Gov Hub, com todos os métodos e cenários relevantes testados.
+* Entrega completa das 10 fases do Projeto Individual de GCES, contemplando containerização, CI/CD, testes unitários e de fuzzing, segurança (SAST/SCA), qualidade de código com SonarCloud, Kubernetes, Terraform e deploy contínuo.
+* Cobertura de **100% de statements, branches, funções e linhas** no arquivo principal do projeto individual (`games.js`), alcançada por meio de mocks de socket que simulam conexões reais sem depender de infraestrutura.
+* Aplicação publicada e acessível publicamente em https://gces-projetoindividual.onrender.com.
 
 ### Maiores Dificuldades
 
-* Os hooks de Git do projeto (pré-commit e pré-push) executam formatação e lint sobre o repositório inteiro, falhando por causa de problemas pré-existentes em arquivos não relacionados à minha contribuição. Precisei investigar a fundo para confirmar que meu arquivo estava correto e que os erros não eram meus, comparando com o estado original do `main` e verificando o CI do projeto.
-* A configuração do `mypy` reportava o import como não encontrado quando rodado de forma isolada, comportamento que ocorre igualmente em todo o projeto e está ligado à forma como o `pythonpath` é resolvido.
-* Pouca experiência prévia com `unittest.mock` e com o fluxo de rebase no Git.
+* Os hooks de Git do Gov Hub (pré-commit e pré-push) executam formatação e lint sobre o repositório inteiro, falhando por causa de problemas pré-existentes em arquivos não relacionados à minha contribuição. Precisei investigar a fundo para contornar esse comportamento sem comprometer a integridade do projeto.
+* A configuração do `mypy` no Gov Hub reportava o import como não encontrado quando rodado de forma isolada, comportamento ligado à forma como o `pythonpath` é resolvido no projeto.
+* No projeto individual, a transferência de arquivos entre máquinas diferentes via zip causou corrupção em arquivos YAML e JSON em algumas ocasiões, exigindo reescrita dos arquivos diretamente no terminal.
+* Configuração inicial do SonarCloud: o escopo de análise precisou ser ajustado para separar corretamente os arquivos de código-fonte dos arquivos de teste, evitando indexação duplicada.
 
 ### Aprendizados
 
 * Como escrever testes unitários com `pytest` e `unittest.mock`, simulando respostas de uma API sem depender dela.
-* Importância de validar uma contribuição isoladamente (apenas o arquivo alterado) quando as ferramentas de qualidade do projeto rodam sobre todo o repositório.
+* Importância de validar uma contribuição isoladamente quando as ferramentas de qualidade do projeto rodam sobre todo o repositório.
 * Fluxo de manutenção de uma branch atualizada com o `upstream` via rebase, e a diferença entre os remotes `origin` (fork) e `upstream` (repositório principal).
 * Convenções de Conventional Commits aplicadas tanto ao nome da branch quanto à mensagem de commit.
+* Construção de pipelines de CI/CD completos com GitHub Actions, cobrindo lint, testes, fuzzing, análise de segurança estática (SAST), verificação de vulnerabilidades em dependências (SCA) e publicação automática de imagens Docker.
+* Criação de mocks de objetos complexos (sockets) para testes unitários em Node.js, permitindo testar lógica que depende de eventos de rede sem infraestrutura real.
+* Configuração de ambientes Docker para desenvolvimento e produção com multi-stage build, e uso do Nginx como servidor de arquivos estáticos com proxy reverso.
+* Fundamentos práticos de Kubernetes (Deployments, Services, Ingress, Secrets, PVC) e Terraform para provisionar infraestrutura como código.
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Acompanhar o code review do Pull Request e implementar eventuais ajustes solicitados pelos mantenedores.
-* [ ] Buscar uma segunda issue para contribuir.
+* [ ] Acompanhar o code review do Pull Request ao Gov Hub e implementar eventuais ajustes solicitados pelos mantenedores.
+* [ ] Buscar uma segunda issue para contribuir ao Gov Hub.
 * [ ] Manter o diário de bordo atualizado em paralelo às atividades.
 
 [link-Documentação]: https://gov-hub.io/govhub/sobre-projeto/overview/
@@ -398,3 +474,14 @@ Prints da página do Pull Request no repositório principal.
 [link-Issue309]: https://github.com/GovHub-br/data-application-gov-hub/issues/309
 [link-PR1govhub]: https://github.com/GovHub-br/data-application-gov-hub/pull/339#issuecomment-4625996046
 [link-TestContratoGovhub]: https://github.com/annacbrandao/data-application-gov-hub/blob/test/cliente-contratos/tests/test_cliente_contratos.py
+[link-RepoGCES]: https://github.com/annacbrandao/gces-projetoindividual
+[link-RepoGCES1]: https://github.com/annacbrandao/gces-projetoindividual/commit/fa04a23297470f473df03438a76eaa77064079e5
+[link-RepoGCES2]: https://github.com/annacbrandao/gces-projetoindividual/commit/56a75ee0a22c331bb792601b1941c591a01534d0
+[link-RepoGCES3]: https://github.com/annacbrandao/gces-projetoindividual/commit/44384d7d8629d9ad7d5c9ccb70606c248200a014
+[link-RepoGCES45]: https://github.com/annacbrandao/gces-projetoindividual/commits/main/
+[link-RepoGCES6]: https://github.com/annacbrandao/gces-projetoindividual/commit/e274f8a950191c62679500346a994efc785a07d4
+[link-RepoGCES7]: https://github.com/annacbrandao/gces-projetoindividual/commit/ace25982c03f65a2295b733600e17b285d202eed
+[link-RepoGCES8]: https://github.com/annacbrandao/gces-projetoindividual/commit/c52cc03a6c3b41b36439a0d7033827776403727f
+[link-RepoGCES9]: https://github.com/annacbrandao/gces-projetoindividual/commit/7d83c5f562d6997a274075b993b58234c6d89582
+[link-RepoGCES10]: https://github.com/annacbrandao/gces-projetoindividual/commit/922539dda1461732db6c9846f1741566a8960ed8
+[link-ProducaoGCES]: https://gces-projetoindividual.onrender.com
