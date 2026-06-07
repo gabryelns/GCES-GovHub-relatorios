@@ -42,7 +42,7 @@
 | **Maria Clara Alves de Sousa** | | [Ver Relatório](/contribuicoes_individuais/maria_clara/maria_clara.md) | Pendente |
 | **Maria Eduarda Denis Duarte Marques** | | [Ver Relatório](/contribuicoes_individuais/maria_eduarda/maria_eduarda.md) | Pendente |
 | **Matheus de Siqueira Brant** | | [Ver Relatório](/contribuicoes_individuais/matheus_brant/matheus_brant.md) | Pendente |
-| **Milena Fernandes Rocha** | | [Ver Relatório](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md) | Pendente |
+| **Milena Fernandes Rocha** | | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-0--06042026--20042026) | Concluído |
 | **Rafael Melo Matuda** | | [Ver Relatório](/contribuicoes_individuais/rafael_melo/rafael_melo.md) | Pendente |
 | **João Guilherme Fonseca** | | [Ver Relatório](/contribuicoes_individuais/joao_fonseca/joao_fonseca.md) | Pendente |
 
