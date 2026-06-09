@@ -307,14 +307,40 @@ Durante a sprint, implementei e validei uma arquitetura composta por polling das
 
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 |-------|-----------|-----------------------------------|-----------------|--------|
-| 27/05 | Análise da especificação do Projeto Individual 4 e do boletim de conjuntura de referência | Estudo | - | Concluído |
-| 28/05 | Definição da arquitetura do pipeline UDA com polling, MinIO, Postgres, LLM e API REST | Discussão/Arquitetura | - | Concluído |
-| 30/05 | Implementação da camada de persistência, catálogo de documentos, linhagem e idempotência por SHA-256 | Código | - | Concluído |
-| 01/06 | Implementação do processamento de PDFs com Docling, markdown, chunking e filtro semântico | Código | - | Concluído |
-| 03/06 | Implementação da extração com Gemini, contrato Pydantic, fixtures offline e validação de respostas | Código/Teste | - | Concluído |
-| 05/06 | Implementação da API FastAPI, endpoint de conjuntura e documentação Swagger/OpenAPI | Código/Doc | - | Concluído |
-| 07/06 | Validação com MRV 3T25 e Cury 3T25, persistindo métricas, artefatos e evidências de funcionamento | Teste | - | Concluído |
-| 08/06 | Documentação final, README, validação contra boletim real e abertura do PR do projeto | Documentação | - | Concluído |
+| 27/05 | Análise da especificação do Projeto Individual 4 e do boletim de conjuntura de referência | Estudo | [Especificação][pi4-spec] e [Plano][pi4-plano] | Concluído |
+| 28/05 | Definição da arquitetura do pipeline UDA com polling, MinIO, Postgres, LLM e API REST | Discussão/Arquitetura | [README][pi4-readme], [polling][pi4-polling] e [docker-compose][pi4-compose] | Concluído |
+| 30/05 | Implementação da camada de persistência, catálogo de documentos, linhagem e idempotência por SHA-256 | Código | [Schema SQL][pi4-schema], [repositórios][pi4-repositories], [hash][pi4-hash] e [linhagem][pi4-lineage] | Concluído |
+| 01/06 | Implementação do processamento de PDFs com Docling, markdown, chunking e filtro semântico | Código | [parser][pi4-parser], [chunking][pi4-chunking], [filtro semântico][pi4-chunk-filter] e [process_pdf][pi4-process-pdf] | Concluído |
+| 03/06 | Implementação da extração com Gemini, contrato Pydantic, fixtures offline e validação de respostas | Código/Teste | [LLM][pi4-llm], [contrato Pydantic][pi4-contract], [extração][pi4-extract-metrics] e [fixtures][pi4-fixtures] | Concluído |
+| 05/06 | Implementação da API FastAPI, endpoint de conjuntura e documentação Swagger/OpenAPI | Código/Doc | [FastAPI][pi4-api-main], [endpoint de conjuntura][pi4-api-conjuntura] e [testes da API][pi4-api-tests] | Concluído |
+| 07/06 | Validação com MRV 3T25 e Cury 3T25, persistindo métricas, artefatos e evidências de funcionamento | Teste | [smoke integrado][pi4-smoke], [validação do boletim][pi4-validate-script] e [artefatos validados][pi4-validated-data] | Concluído |
+| 08/06 | Documentação final, README, validação contra boletim real e abertura do PR do projeto | Documentação | [README][pi4-readme], [VALIDACAO.md][pi4-validacao] e [Projeto Individual 4][pi4-root] | Concluído |
+
+[pi4-root]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/tree/projeto-4/lucas-martins-gabriel/projeto-4
+[pi4-spec]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/tree/projeto-4/lucas-martins-gabriel/projeto-4/especificacao
+[pi4-plano]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/PLANO.md
+[pi4-readme]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/README.md
+[pi4-validacao]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/VALIDACAO.md
+[pi4-compose]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/docker-compose.yml
+[pi4-polling]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/ingestion/poll_sources.py
+[pi4-schema]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/db/001_initial_schema.sql
+[pi4-repositories]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/db/repositories.py
+[pi4-hash]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/hash.py
+[pi4-lineage]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/lineage.py
+[pi4-parser]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/parser.py
+[pi4-chunking]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/chunking.py
+[pi4-chunk-filter]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/chunk_filter.py
+[pi4-process-pdf]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/process_pdf.py
+[pi4-llm]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/llm.py
+[pi4-contract]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/contracts/uda.py
+[pi4-extract-metrics]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/extractor/extract_metrics.py
+[pi4-fixtures]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/tree/projeto-4/lucas-martins-gabriel/projeto-4/src/data/validated
+[pi4-api-main]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/api/main.py
+[pi4-api-conjuntura]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/services/api/conjuntura.py
+[pi4-api-tests]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/tests/test_api.py
+[pi4-smoke]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/scripts/smoke_integrated_pipeline.py
+[pi4-validate-script]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/blob/projeto-4/lucas-martins-gabriel/projeto-4/src/scripts/validate_conjuntura_against_boletim.py
+[pi4-validated-data]: https://github.com/martinsglucas/Projetos-Individuais-2026-1/tree/projeto-4/lucas-martins-gabriel/projeto-4/src/data/validated
 
 ### Detalhamento das Atividades Realizadas
 
