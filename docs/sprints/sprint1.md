@@ -36,6 +36,7 @@ Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e 
 | **Lívia Rodrigues Reis** | |  |   |
 | **Lucas de Oliveira Dias Marques Ferreira** | |  |   |
 | **Lucas Guimarães Borges** | |  |   |
+| **Lucas Martins Gabriel** | Busca de primeira issue para contribuição no KDE Frameworks, análise da meta issue de migração de documentação para qdoc, estudo da biblioteca KWeatherCore e criação do fork do repositório. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-1--21042026--11052026) | Concluído |
 | **Luisa de Souza Ferreira** |  |  |  |
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
@@ -67,5 +68,4 @@ Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e 
 ---
 
 ## 7. Planejamento para a Próxima Sprint
-
 

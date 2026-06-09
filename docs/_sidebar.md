@@ -2,6 +2,8 @@
 
 - [**Sprints**](/sprints/README.md)
   - [Sprint 0](/sprints/sprint0.md)
+  - [Sprint 1](/sprints/sprint1.md)
+  - [Sprint 2](/sprints/sprint2.md)
 
 - [**Contribuições**](/contribuicoes_individuais/README.md)
   - [Ana Letícia](/contribuicoes_individuais/ana_leticia/ana_leticia.md)

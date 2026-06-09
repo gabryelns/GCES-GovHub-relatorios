@@ -38,6 +38,7 @@
 | **Lívia Rodrigues Reis** | | [Ver Relatório](/contribuicoes_individuais/livia_rodrigues/livia_rodrigues.md) | Pendente |
 | **Lucas de Oliveira Dias Marques Ferreira** | | [Ver Relatório](/contribuicoes_individuais/lucas_marques/lucas_marques.md) | Pendente |
 | **Lucas Guimarães Borges** | | [Ver Relatório](/contribuicoes_individuais/lucas_guimaraes/lucas_guimaraes.md) | Pendente |
+| **Lucas Martins Gabriel** | Onboarding no projeto KDE Frameworks antes do remanejamento para o Gov Hub BR: leitura do guia de contribuição e código de conduta, criação de contas no KDE Invent e Matrix, exploração da arquitetura do KDE Frameworks e estudo do projeto Language Bindings. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-0--06042026--20042026) | Concluído |
 | **Luisa de Souza Ferreira** | Estudo sobre o projeto, criação do fork do projeto, configuração do ambiente local e criação do repositório de documentação. | [Ver Relatório](/contribuicoes_individuais/luisa_ferreira/luisa.md) | Concluído |
 | **Maria Clara Alves de Sousa** | | [Ver Relatório](/contribuicoes_individuais/maria_clara/maria_clara.md) | Pendente |
 | **Maria Eduarda Denis Duarte Marques** | | [Ver Relatório](/contribuicoes_individuais/maria_eduarda/maria_eduarda.md) | Pendente |
