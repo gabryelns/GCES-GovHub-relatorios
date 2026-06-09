@@ -318,7 +318,7 @@ Durante a sprint, implementei e validei uma arquitetura composta por polling das
 
 ### Detalhamento das Atividades Realizadas
 
-O projeto foi implementado em `~/Projects/sml/lucas-martins-gabriel/projeto-4/src`. A solução usa fixtures versionadas para garantir reprodutibilidade da avaliação e também registra respostas reais da LLM como evidência de execução com Gemini.
+O projeto foi implementado no repositório de projetos individuais: [lucas-martins-gabriel/projeto-4](https://github.com/martinsglucas/Projetos-Individuais-2026-1/tree/projeto-4/lucas-martins-gabriel/projeto-4). A solução usa fixtures versionadas para garantir reprodutibilidade da avaliação e também registra respostas reais da LLM como evidência de execução com Gemini.
 
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Testes automatizados passando</span></summary>
