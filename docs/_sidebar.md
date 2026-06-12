@@ -11,6 +11,7 @@
   - [Artur Camargos](/contribuicoes_individuais/artur_camargos/artur_camargos.md)
   - [Camila Silva](/contribuicoes_individuais/camila_silva/camila_silva.md)
   - [Gabriel Saraiva](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md)
+  - [Gabryel Sousa](/contribuicoes_individuais/gabryel_sousa/gabryel_sousa.md)
   - [João Lucas](/contribuicoes_individuais/joao_lucas/joao_lucas.md)
   - [João Vitor](/contribuicoes_individuais/joao_vitor/joao_vitor.md)
   - [Júlia Takaki](/contribuicoes_individuais/julia_takaki/julia_takaki.md)
