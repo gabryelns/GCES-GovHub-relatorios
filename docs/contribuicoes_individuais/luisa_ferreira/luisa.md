@@ -323,6 +323,91 @@ Pull Request [#345](https://github.com/GovHub-br/data-application-gov-hub/pull/3
 
 ### Plano Pessoal para a Próxima Sprint
 
-- [ ] Acompanhar a revisão e aprovação do PR #345.
+- [X] Acompanhar a revisão e aprovação do PR #345.
+- [X] Implementar sugestões de melhoria apontadas na revisão.
+- [X] Escolher a próxima issue com a Camila.
+
+
+## Sprint 3 – [27/05/2026 – 10/06/2026]
+
+### Resumo da Sprint
+
+Esta sprint foi dedicada à implementação de testes estruturais e de negócio nos schemas dbt do sistema `ipea/contratos_dbt`, cobrindo todas as camadas (bronze, silver, gold e views). Realizei juntamente com a **Camila Silva** a definição dos testes de chaves primárias e a validação de campos de identificação de contratos e datas de vigência. A entrega cobre todos os modelos do sistema de contratos do IPEA.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo | Link/Referência | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| 27/05 | Estudo e análise da issue #302 | Estudo | [Issue #302](https://github.com/GovHub-br/data-application-gov-hub/issues/302) | Concluído |
+| 28/05 | Leitura e mapeamento dos schemas existentes (bronze, silver, gold, views) | Estudo | `airflow_lappis/dags/dbt/ipea/models/contratos_dbt/` | Concluído |
+| 29/05 | Análise das macros de qualidade disponíveis no projeto | Estudo | `airflow_lappis/dags/dbt/ipea/macros/data_quality/` | Concluído |
+| 02/06 | Implementação dos testes de chave primária no bronze | Código | `contratos_dbt/bronze/schema.yml` | Concluído |
+| 03/06 | Implementação dos testes de chave primária no silver | Código | `contratos_dbt/silver/schema.yml` | Concluído |
+| 04/06 | Implementação dos testes de chave primária no gold | Código | `contratos_dbt/gold/schema.yml` | Concluído |
+| 04/06 | Implementação dos testes de chave primária nas views | Código | `contratos_dbt/views/schema.yml` | Concluído |
+| 09/06 | Abertura do Pull Request | Código | [PR #384](https://github.com/GovHub-br/data-application-gov-hub/pull/384) | Aguardando revisão |
+| 10/06 | Atualização do Diário de Bordo | Documentação | - | Concluído |
+
+### Detalhamento das Atividades Realizadas
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">1. Análise da Issue e dos Schemas</span></summary>
+
+Estudo da [issue #302](https://github.com/GovHub-br/data-application-gov-hub/issues/302) e leitura completa dos schemas de todas as camadas do sistema `contratos_dbt`. Foi realizado o mapeamento de todos os modelos, identificando os campos de chave primária, campos de identificação (CNPJ/CPF) e datas de vigência em cada tabela.
+
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">2. Análise das Macros de Qualidade</span></summary>
+
+Leitura das macros `test_verificacao_tipagem` e `test_row_count_match` disponíveis em `airflow_lappis/dags/dbt/ipea/macros/data_quality/`, entendendo o padrão já adotado no projeto para testes de tipagem e contagem de registros, e identificando quais testes nativos do dbt (`unique`, `not_null`) complementariam os requisitos da issue.
+
+</details>
+
+<details>
+<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">3. Implementação dos Testes</span></summary>
+
+Adicionados testes `unique` + `not_null` nos campos de chave primária e `not_null` nos campos de identificação e datas de vigência em todas as camadas:
+
+**Bronze** (`contratos`, `cronogramas`, `faturas`, `empenhos`):
+- `unique` + `not_null` nos campos `id`
+- `not_null` em `contrato_id`, `fornecedor_cnpj_cpf_idgener`, `vigencia_inicio` e `vigencia_fim`
+
+**Silver** (`contratos_empenhos`, `contratos_estagios`, `contratos_faturas`, `cronogramas_faturas_mensal`):
+- `unique` + `not_null` no campo `id` de `contratos_faturas`
+- `not_null` em `contrato_id`, `fornecedor_cnpj_cpf_idgener`, `vigencia_inicio` e `vigencia_fim`
+
+**Gold** (`contratos_resumo`, `contratos_somatorio`, `contratos_comparativo_mensal`):
+- `unique` + `not_null` em `contrato_id` de `contratos_resumo` e `contratos_somatorio`
+- `not_null` em `fornecedor_cnpj_cpf`, `vigencia_inicio` e `vigencia_fim`
+
+**Views** (`identificadores`):
+- `unique` + `not_null` em `contrato_id`
+- `not_null` em `cnpj_cpf`
+
+</details>
+
+### Maiores Avanços
+
+- Implementação de testes de chave primária (`unique` + `not_null`) em todos os modelos do sistema `contratos_dbt`;
+- Validação de campos de identificação (CNPJ/CPF) e datas de vigência em todas as camadas;
+- Cobertura completa das 4 camadas do sistema: bronze, silver, gold e views;
+- Colaboração efetiva com Camila Silva.
+
+### Maiores Dificuldades
+
+- Identificação correta de quais campos são chaves primárias em cada camada — alguns modelos como `contratos_comparativo_mensal` repetem o `contrato_id` por mês, exigindo análise cuidadosa antes de aplicar o teste `unique`.
+
+### Aprendizados
+
+- Estrutura e padrões de testes dbt (`unique`, `not_null`) em projetos reais;
+- Diferença entre chaves primárias e chaves estrangeiras no contexto de schemas dbt;
+- Análise de modelos de dados em múltiplas camadas (bronze, silver, gold, views);
+- Leitura e entendimento de macros customizadas de qualidade de dados;
+- Fluxo de contribuição com sincronização de fork e abertura de PR.
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Acompanhar a revisão e aprovação do PR de contratos_dbt.
 - [ ] Implementar sugestões de melhoria apontadas na revisão.
 - [ ] Escolher a próxima issue com a Camila.
