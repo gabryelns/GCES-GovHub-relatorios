@@ -36,12 +36,12 @@ Análisar e explorar as issues dentro dos projetos, selecionar para trabalhar e 
 | **Lívia Rodrigues Reis** | |  |   |
 | **Lucas de Oliveira Dias Marques Ferreira** | |  |   |
 | **Lucas Guimarães Borges** | |  |   |
-| **Lucas Martins Gabriel** | Busca de primeira issue para contribuição no KDE Frameworks, análise da meta issue de migração de documentação para qdoc, estudo da biblioteca KWeatherCore e criação do fork do repositório. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-1--21042026--11052026) | Concluído |
+| **Lucas Martins Gabriel** | Busca de primeira issue para contribuição no KDE Frameworks, análise da meta issue de migração de documentação para qdoc, estudo da biblioteca KWeatherCore e criação do fork do repositório. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-1-21042026-11052026) | Concluído |
 | **Luisa de Souza Ferreira** |  |  |  |
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
 | **Matheus de Siqueira Brant** | |  |   |
-| **Milena Fernandes Rocha** | Sprint 1 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-1--21042026--11052026) | Concluído |
+| **Milena Fernandes Rocha** | Sprint 1 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-1-21042026-11052026) | Concluído |
 | **Rafael Melo Matuda** | |  |   |
 | **João Guilherme Fonseca** | |  |   |
 

@@ -7,7 +7,7 @@ Este espaço é dedicado ao registro da jornada individual de cada integrante da
 **<h2>Equipe de Desenvolvimento</h2>**
 
 
-Abaixo estão listados os 18 contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
+Abaixo estão listados os contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
 
 | Integrante | Matrícula | Diário de Bordo |
 | :---: | :--- | :--- |
@@ -16,6 +16,7 @@ Abaixo estão listados os 18 contribuidores deste projeto. Clique no nome ou no 
 | **[Artur de Camargos Rodrigues](https://github.com/Arturdcr)** | 221038785 | [Ver Relatório](/contribuicoes_individuais/artur_camargos/artur_camargos.md) |
 | **[Camila Silva Cavalcante](https://github.com/CamilaSilvaC)** | 232013944 | [Ver Relatório](/contribuicoes_individuais/camila_silva/camila_silva.md) |
 | **[Gabriel Saraiva Canabrava](https://github.com/gabrielsarcan)** | 202045769 | [Ver Relatório](/contribuicoes_individuais/gabriel_saraiva/gabriel_saraiva.md) |
+| **[Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns)** | 221022570 | [Ver Relatório](/contribuicoes_individuais/gabryel_sousa/gabryel_sousa.md) |
 | **[João Lucas Araujo Siqueira]()** | 222025324 | [Ver Relatório](/contribuicoes_individuais/joao_lucas/joao_lucas.md) |
 | **[João Vitor Lopes Ribeiro](https://github.com/Joa0V)** | 221022014 | [Ver Relatório](/contribuicoes_individuais/joao_vitor/joao_vitor.md) |
 | **[Júlia Takaki Neves](https://github.com/juliatakaki)** | 221029249 | [Ver Relatório](/contribuicoes_individuais/julia_takaki/julia_takaki.md) |

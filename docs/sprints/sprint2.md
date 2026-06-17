@@ -36,12 +36,12 @@
 | **Lívia Rodrigues Reis** | |  |   |
 | **Lucas de Oliveira Dias Marques Ferreira** | |  |   |
 | **Lucas Guimarães Borges** | |  |   |
-| **Lucas Martins Gabriel** | Remanejamento para o Gov Hub BR, estudo da documentação e arquitetura do projeto, configuração do ambiente local e implementação, em parceria com Milena Fernandes, do helper de notificações de falhas de tasks do Airflow via Telegram, com PR aberto. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-2--12052026--26052026) | Concluído |
+| **Lucas Martins Gabriel** | Remanejamento para o Gov Hub BR, estudo da documentação e arquitetura do projeto, configuração do ambiente local e implementação, em parceria com Milena Fernandes, do helper de notificações de falhas de tasks do Airflow via Telegram, com PR aberto. | [Ver Relatório](/contribuicoes_individuais/lucas_martins/lucas_martins.md#sprint-2-12052026-26052026) | Concluído |
 | **Luisa de Souza Ferreira** |  |  |  |
 | **Maria Clara Alves de Sousa** | |  |   |
 | **Maria Eduarda Denis Duarte Marques** | |  |   |
 | **Matheus de Siqueira Brant** | |  |   |
-| **Milena Fernandes Rocha** | Sprint 2 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-2--12052026--26052026) | Concluído |
+| **Milena Fernandes Rocha** | Sprint 2 | [Ver Relatório](../contribuicoes_individuais/milena_fernandes/milena_fernandes.md#sprint-2-12052026-26052026) | Concluído |
 | **Rafael Melo Matuda** | |  |   |
 | **João Guilherme Fonseca** | |  |   |
 
