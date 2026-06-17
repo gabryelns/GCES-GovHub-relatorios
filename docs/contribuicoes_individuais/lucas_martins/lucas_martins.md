@@ -429,3 +429,75 @@ Print do Pull Request de submissão do Projeto Individual 4, com resumo das func
 - [ ] Organizar melhor as evidências de execução e documentação técnica
 - [ ] Continuar acompanhando oportunidades de contribuição no Gov Hub BR
 - [ ] Aprofundar conhecimentos em pipelines de dados, observabilidade e validação automatizada
+
+
+---
+
+## Sprint 4 – [09/06/2026 – 22/06/2026]
+
+### Resumo da Sprint
+
+Sprint dedicada à continuidade da contribuição no Gov Hub BR por meio da revisão e manutenção do PR [#321](https://github.com/GovHub-br/data-application-gov-hub/pull/321), referente à feature de alertas de falhas do Airflow via Telegram, desenvolvida em conjunto com a [Milena Fernandes](/contribuicoes_individuais/milena_fernandes/milena_fernandes.md). Durante a sprint, acompanhei os comentários de revisão, corrigi problemas de configuração identificados pelos mantenedores e ajustei a implementação para suportar o envio de notificações para mais de um `chat_id`.
+
+Também atuei na correção do histórico do PR após uma reescrita da branch `main` do repositório oficial, que fez com que o GitHub passasse a exibir centenas de commits indevidos no PR. Para resolver isso, rebaseei a branch da contribuição em cima da `main` atualizada e preservei o conteúdo dos commits por meio de comparação de patches. Nesse processo, o commit `aaf5734` foi apenas a recriação do patch implementado originalmente na sprint 3, não uma nova implementação feita na sprint 4.
+
+### Atividades Realizadas
+
+| Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+|-------|-----------|-----------------------------------|-----------------|--------|
+| 15/06 | Análise dos comentários de revisão do PR #321 | Revisão | [PR #321](https://github.com/GovHub-br/data-application-gov-hub/pull/321#pullrequestreview-4473651469) | Concluído |
+| 15/06 | Correção do import do helper de Telegram conforme o `PYTHONPATH` do projeto | Código | [`contratos_ingest_dag.py`](https://github.com/martinsglucas/data-application-gov-hub/blob/feat/webhook-alerta-telegram/airflow_lappis/dags/data_ingest/compras_gov/contratos_ingest_dag.py) | Concluído |
+| 15/06 | Inclusão da dependência `httpx` no `requirements.txt` e ajuste da duplicidade no `pyproject.toml` | Configuração | [`requirements.txt`](https://github.com/martinsglucas/data-application-gov-hub/blob/feat/webhook-alerta-telegram/requirements.txt) e [`pyproject.toml`](https://github.com/martinsglucas/data-application-gov-hub/blob/feat/webhook-alerta-telegram/pyproject.toml) | Concluído |
+| 15/06 | Ajuste do helper para aceitar um ou múltiplos `chat_id` nas variáveis do Airflow | Código | [`telegram_helpers.py`](https://github.com/martinsglucas/data-application-gov-hub/blob/feat/webhook-alerta-telegram/airflow_lappis/helpers/telegram_helpers.py) | Concluído |
+| 15/06 | Correção da quantidade de commits exibida no PR após reescrita da `main` oficial | Manutenção/Git | [PR #321](https://github.com/GovHub-br/data-application-gov-hub/pull/321) | Concluído |
+| 16/06 | Documentação das correções realizadas na revisão do PR como contribuição da sprint 4 | Documentação | Este diário de bordo | Concluído |
+
+### Detalhamento das Atividades Realizadas
+
+A continuidade da contribuição foi realizada em conjunto com a Milena Fernandes. O foco da sprint foi ajustar a implementação já iniciada na sprint 3, validar a configuração esperada pelo projeto e organizar o histórico da branch para facilitar a revisão pelos mantenedores.
+
+#### Arquivos Alterados na Contribuição
+
+Os últimos commits relacionados ao PR alteraram os seguintes arquivos:
+
+| Arquivo | Descrição da alteração |
+|---------|------------------------|
+| `airflow_lappis/dags/data_ingest/compras_gov/contratos_ingest_dag.py` | Correção do import para `from telegram_helpers import telegram_failure_callback`, compatível com o `PYTHONPATH` do projeto. |
+| `airflow_lappis/helpers/telegram_helpers.py` | Evolução do helper para normalizar a configuração de `chat_id`/`chat_ids` e enviar notificações para múltiplos destinos. |
+| `requirements.txt` | Inclusão da dependência `httpx`, necessária para ambientes que instalam dependências por esse arquivo. |
+| `pyproject.toml` | Remoção da duplicidade da dependência `httpx` que havia ficado no arquivo. |
+
+#### Commits Relacionados
+
+| Commit | Descrição |
+|--------|-----------|
+| [`aaf5734`](https://github.com/martinsglucas/data-application-gov-hub/commit/aaf573416fcc39b7c9e6820d37c7dbe4709a9976) | Recriação, após rebase, do patch de implementação inicial das notificações de falhas via Telegram, trabalho já realizado na sprint 3. |
+| [`80411b8`](https://github.com/martinsglucas/data-application-gov-hub/commit/80411b8039847dad6c095ac27ba266044616cc82) | Correções solicitadas na revisão durante a sprint 4: import, dependência, múltiplos chats e organização da configuração. |
+
+### Maiores Avanços
+
+* Resposta aos comentários de revisão do PR #321 com ajustes objetivos nos arquivos apontados pelos mantenedores.
+* Ampliação da feature para permitir o envio de alertas para mais de um chat do Telegram.
+* Correção do histórico da branch do PR após reescrita da `main`, reduzindo o PR para apenas os commits reais da contribuição.
+* Validação de que o commit recriado preservou o mesmo patch da implementação original.
+
+### Maiores Dificuldades
+
+* Entender o impacto da reescrita da `main` oficial nos PRs abertos, que passaram a aparecer com centenas de commits indevidos.
+* Recriar a branch do PR em cima da nova `main` preservando o conteúdo da contribuição original.
+* Ajustar a implementação considerando tanto o ambiente Poetry quanto o uso de `requirements.txt`.
+
+### Aprendizados
+
+* Uso de `git rebase --onto` para reaplicar commits reais de um PR sobre uma nova base.
+* Diferença entre preservar o patch de um commit e preservar o hash do commit, que muda quando o commit passa a ter outro pai.
+* Importância de alinhar imports com o `PYTHONPATH` configurado no projeto.
+* Cuidados ao declarar dependências em projetos que mantêm mais de uma fonte de instalação.
+* Como evoluir uma configuração simples (`chat_id`) para suportar múltiplos destinos mantendo compatibilidade com o formato anterior.
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Acompanhar a nova rodada de revisão do PR #321
+- [ ] Realizar ajustes adicionais caso os mantenedores solicitem
+- [ ] Verificar se a configuração com múltiplos chats atende ao caso de uso esperado pela equipe
+- [ ] Continuar contribuindo com melhorias de observabilidade e manutenção no Gov Hub BR
