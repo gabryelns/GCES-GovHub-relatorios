@@ -354,7 +354,7 @@ Resposta do endpoint `/api/catalogo`, evidenciando o registro de linhagem comple
 - [ ] Continuar acompanhando oportunidades de contribuição no Gov Hub BR.
 - [ ] Aprofundar conhecimentos em pipelines de dados e validação automatizada.
 
-## Sprint 4 – [09/06/2026 – 23/06/2026]
+## Sprint 4 – [09/06/2026 – 30/06/2026]
 
 ### Resumo da Sprint
 
